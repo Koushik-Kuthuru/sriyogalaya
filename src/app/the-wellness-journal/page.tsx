@@ -50,9 +50,9 @@ export default function TheWellnessJournal() {
 <p className="font-body-md text-lg text-on-surface-variant mb-8 line-clamp-2 font-light">How reducing digital clutter and physical possessions can create a spacious mind ready for deeper meditation and daily gratitude.</p>
 <div className="flex items-center space-x-4 border-t border-on-surface/5 pt-6">
 <div className="w-12 h-12 rounded-full overflow-hidden">
-<img title="Portrait of a serene female yoga instructor" className="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCp5Ctizu9_xRfrqfY_fo-a-QFAi8NRb4RUUQYYyF3RSZQsU4IfAZR9r52aUPQYfC2suq92qzEyUZIzCMBWsMdS57VWqKw-zler2fKplqDfNE37RBWSIFCG6FDEKmbhJlcSRwQRQ-tZI0GDMR8qU1Y3gRkGBWIyaLa5dEhEHaWDXJBkaIQ6eC2fcMRakXLfjHEPSX5YP6apBEuCOFpflmQNYFKWukvgotC5DViVHvgqqm6DUxWW65FK-REiO87YhFoiikDjmVnNvQ"/>
+<img alt="Sri Devi" className="w-full h-full object-cover" src="/images/IMG_0509.jpeg"/>
 </div>
-<div className="text-on-surface font-label-caps text-sm font-bold">Sri Davi</div>
+<div className="text-on-surface font-label-caps text-sm font-bold">Sri Devi</div>
 <div className="text-outline font-label-caps text-xs tracking-widest uppercase ml-auto">OCT 12, 2024</div>
 </div>
 </div>

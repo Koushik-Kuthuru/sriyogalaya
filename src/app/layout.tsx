@@ -99,9 +99,9 @@ export default function RootLayout({
               {/* Mobile Menu Toggle Button */}
               <label
                 htmlFor="mobile-menu-toggle"
-                className="md:hidden cursor-pointer select-none inline-flex items-center justify-center rounded-full border border-on-surface/10 bg-surface/80 backdrop-blur px-4 py-3 hover:bg-surface transition-colors"
+                className="md:hidden cursor-pointer select-none inline-flex items-center justify-center w-12 h-12 rounded-full border border-on-surface/10 bg-surface/80 backdrop-blur hover:bg-surface transition-all active:scale-95"
               >
-                <span className="material-symbols-outlined text-on-surface-variant">
+                <span className="material-symbols-outlined text-on-surface-variant text-[24px]">
                   menu
                 </span>
               </label>
@@ -109,23 +109,50 @@ export default function RootLayout({
               {/* Mobile Menu Overlay */}
               <label
                 htmlFor="mobile-menu-toggle"
-                className="fixed inset-0 bg-black/50 z-[60] opacity-0 pointer-events-none peer-checked:opacity-100 peer-checked:pointer-events-auto transition-opacity duration-300 md:hidden"
+                className="fixed inset-0 bg-black/40 backdrop-blur-sm z-[60] opacity-0 pointer-events-none peer-checked:opacity-100 peer-checked:pointer-events-auto transition-all duration-500 md:hidden"
               ></label>
 
               {/* Mobile Menu Sidebar */}
-              <div className="fixed top-0 right-0 h-[100dvh] w-80 max-w-[80vw] bg-surface z-[70] transform translate-x-full peer-checked:translate-x-0 transition-transform duration-500 shadow-2xl flex flex-col md:hidden">
-                <div className="flex justify-between items-center p-6 border-b border-on-surface/5">
-                  <span className="font-display-lg text-2xl font-bold text-primary">Menu</span>
-                  <label htmlFor="mobile-menu-toggle" className="cursor-pointer p-2 rounded-full hover:bg-on-surface/5 transition-colors inline-flex items-center justify-center">
-                    <span className="material-symbols-outlined">close</span>
+              <div className="fixed top-0 right-0 h-[100dvh] w-full max-w-[320px] bg-surface z-[70] transform translate-x-full peer-checked:translate-x-0 transition-transform duration-500 ease-[cubic-bezier(0.23,1,0.32,1)] shadow-2xl flex flex-col md:hidden">
+                <div className="flex justify-between items-center px-8 py-8 border-b border-on-surface/5">
+                  <span className="font-display-lg text-2xl font-bold text-primary">Explore</span>
+                  <label htmlFor="mobile-menu-toggle" className="cursor-pointer w-10 h-10 rounded-full bg-on-surface/5 hover:bg-on-surface/10 transition-colors inline-flex items-center justify-center active:scale-90">
+                    <span className="material-symbols-outlined text-[20px]">close</span>
                   </label>
                 </div>
-                <div className="flex flex-col p-6 gap-2 overflow-y-auto">
-                  <Link className="px-4 py-4 rounded-lg hover:bg-on-surface/5 transition-colors font-label-caps tracking-[0.18em] text-on-surface-variant uppercase text-sm" href="/investment-plans">Pricing</Link>
-                  <Link className="px-4 py-4 rounded-lg hover:bg-on-surface/5 transition-colors font-label-caps tracking-[0.18em] text-on-surface-variant uppercase text-sm" href="/success-stories">Stories</Link>
-                  <Link className="px-4 py-4 rounded-lg hover:bg-on-surface/5 transition-colors font-label-caps tracking-[0.18em] text-on-surface-variant uppercase text-sm" href="/the-wellness-journal">Journal</Link>
-                  <Link className="px-4 py-4 rounded-lg hover:bg-on-surface/5 transition-colors font-label-caps tracking-[0.18em] text-on-surface-variant uppercase text-sm" href="/about">About</Link>
-                  <Link className="px-4 py-4 rounded-lg hover:bg-on-surface/5 transition-colors font-label-caps tracking-[0.18em] text-on-surface-variant uppercase text-sm" href="/connect-with-us">Connect</Link>
+                
+                <div className="flex flex-col px-8 py-10 gap-1 overflow-y-auto flex-1">
+                  <Link className="group flex items-center justify-between py-5 border-b border-on-surface/5 font-label-caps tracking-[0.2em] text-on-surface hover:text-primary transition-colors uppercase text-xs font-bold" href="/investment-plans">
+                    Pricing
+                    <span className="material-symbols-outlined text-[18px] opacity-30 group-hover:opacity-100 group-hover:translate-x-1 transition-all">chevron_right</span>
+                  </Link>
+                  <Link className="group flex items-center justify-between py-5 border-b border-on-surface/5 font-label-caps tracking-[0.2em] text-on-surface hover:text-primary transition-colors uppercase text-xs font-bold" href="/success-stories">
+                    Stories
+                    <span className="material-symbols-outlined text-[18px] opacity-30 group-hover:opacity-100 group-hover:translate-x-1 transition-all">chevron_right</span>
+                  </Link>
+                  <Link className="group flex items-center justify-between py-5 border-b border-on-surface/5 font-label-caps tracking-[0.2em] text-on-surface hover:text-primary transition-colors uppercase text-xs font-bold" href="/the-wellness-journal">
+                    Journal
+                    <span className="material-symbols-outlined text-[18px] opacity-30 group-hover:opacity-100 group-hover:translate-x-1 transition-all">chevron_right</span>
+                  </Link>
+                  <Link className="group flex items-center justify-between py-5 border-b border-on-surface/5 font-label-caps tracking-[0.2em] text-on-surface hover:text-primary transition-colors uppercase text-xs font-bold" href="/about">
+                    About
+                    <span className="material-symbols-outlined text-[18px] opacity-30 group-hover:opacity-100 group-hover:translate-x-1 transition-all">chevron_right</span>
+                  </Link>
+                </div>
+
+                <div className="p-8 border-t border-on-surface/5 bg-on-surface/[0.02]">
+                  <Link 
+                    className="flex items-center justify-center gap-3 bg-primary text-on-primary w-full py-5 rounded-full font-label-caps text-[11px] font-bold tracking-[0.2em] uppercase hover:shadow-xl hover:shadow-primary/20 transition-all active:scale-95" 
+                    href="/connect-with-us"
+                  >
+                    Start Practice
+                    <span className="material-symbols-outlined text-[18px]">calendar_today</span>
+                  </Link>
+                  
+                  <div className="mt-8 flex justify-center gap-6 text-on-surface-variant/40">
+                    <a href="https://instagram.com/sriyogalaya" target="_blank" className="hover:text-primary transition-colors"><span className="material-symbols-outlined">camera_enhance</span></a>
+                    <a href="mailto:contact@sriyogalaya.com" className="hover:text-primary transition-colors"><span className="material-symbols-outlined">mail</span></a>
+                  </div>
                 </div>
               </div>
             </div>

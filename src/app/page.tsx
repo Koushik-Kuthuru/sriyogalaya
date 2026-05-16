@@ -28,23 +28,23 @@ export default function Home() {
                 </div>
 
                 {/* Headline */}
-                <h1 className="font-display-lg text-[2.75rem] sm:text-5xl md:text-6xl lg:text-[4rem] mt-8 mb-6 leading-[1.08] tracking-tight animate-in slide-in-from-bottom-8 duration-700 delay-400 fill-mode-both">
+                <h1 className="font-display-lg text-[2.5rem] sm:text-5xl md:text-6xl lg:text-[4rem] mt-6 sm:mt-8 mb-6 leading-[1.1] tracking-tight animate-in slide-in-from-bottom-8 duration-700 delay-400 fill-mode-both">
                   Transform Your
                   <span className="block text-primary">Mind &amp; Body</span>
                 </h1>
 
                 {/* Subheadline */}
-                <p className="text-lg md:text-xl text-on-surface-variant mb-10 leading-relaxed animate-in slide-in-from-bottom-8 duration-700 delay-600 fill-mode-both max-w-md">
+                <p className="text-base sm:text-lg md:text-xl text-on-surface-variant mb-10 leading-relaxed animate-in slide-in-from-bottom-8 duration-700 delay-600 fill-mode-both max-w-md font-light">
                   Experience curated 1-on-1 yoga sessions via Zoom, tailored precisely to your anatomy, goals, and breath.
                 </p>
 
                 {/* CTA Buttons */}
-                <div className="flex flex-col sm:flex-row gap-3 animate-in slide-in-from-bottom-8 duration-700 delay-800 fill-mode-both">
-                  <Link className="bg-primary text-on-primary px-8 py-4 rounded-full font-label-caps text-[11px] tracking-[0.2em] hover:bg-primary/90 hover:-translate-y-1 hover:shadow-xl hover:shadow-primary/20 transition-all duration-300 inline-flex items-center justify-center gap-2 uppercase font-bold" href="/connect-with-us">
+                <div className="flex flex-col sm:flex-row gap-4 sm:gap-3 animate-in slide-in-from-bottom-8 duration-700 delay-800 fill-mode-both">
+                  <Link className="bg-primary text-on-primary px-8 py-5 sm:py-4 rounded-full font-label-caps text-[11px] tracking-[0.2em] hover:bg-primary/90 hover:-translate-y-1 hover:shadow-xl hover:shadow-primary/20 transition-all duration-300 inline-flex items-center justify-center gap-2 uppercase font-bold" href="/connect-with-us">
                     Start Your Journey
                     <span className="material-symbols-outlined text-[16px]">arrow_forward</span>
                   </Link>
-                  <Link className="border border-on-surface/15 text-on-surface px-8 py-4 rounded-full font-label-caps text-[11px] tracking-[0.2em] hover:bg-on-surface/5 hover:-translate-y-1 transition-all duration-300 inline-flex items-center justify-center uppercase backdrop-blur-sm" href="/success-stories">Explore Stories</Link>
+                  <Link className="border border-on-surface/15 text-on-surface px-8 py-5 sm:py-4 rounded-full font-label-caps text-[11px] tracking-[0.2em] hover:bg-on-surface/5 hover:-translate-y-1 transition-all duration-300 inline-flex items-center justify-center uppercase backdrop-blur-sm" href="/success-stories">Explore Stories</Link>
                 </div>
 
                 {/* Trust badges */}
@@ -114,21 +114,27 @@ export default function Home() {
                 <h2 className="font-display-lg text-headline-md mb-4">Why Personalized Practice?</h2>
                 <p className="text-on-surface-variant">Beyond the studio, into your soul.</p>
               </div>
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-gutter mt-12">
-                <div className="p-12 bg-surface-container rounded-xl flex flex-col items-center text-center shadow-sm hover:shadow-xl hover:-translate-y-2 transition-all duration-500">
-                  <span className="material-symbols-outlined text-4xl text-primary mb-6" data-icon="self_improvement">self_improvement</span>
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-gutter mt-12">
+                <div className="p-8 sm:p-12 bg-surface-container rounded-2xl flex flex-col items-center text-center shadow-sm hover:shadow-xl hover:-translate-y-2 transition-all duration-500 group">
+                  <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                    <span className="material-symbols-outlined text-3xl text-primary" data-icon="self_improvement">self_improvement</span>
+                  </div>
                   <h3 className="font-display-lg text-headline-sm mb-4">Mental Clarity</h3>
-                  <p className="text-on-surface-variant">Reduce cortisol levels and find a peaceful center amidst the chaos of modern life.</p>
+                  <p className="text-on-surface-variant font-light text-sm sm:text-base leading-relaxed">Reduce cortisol levels and find a peaceful center amidst the chaos of modern life.</p>
                 </div>
-                <div className="p-12 bg-primary-container/20 rounded-xl flex flex-col items-center text-center shadow-sm border border-primary/10 hover:shadow-xl hover:-translate-y-2 hover:bg-primary-container/30 transition-all duration-500">
-                  <span className="material-symbols-outlined text-4xl text-primary mb-6" data-icon="flexibility">flex_direction</span>
+                <div className="p-8 sm:p-12 bg-primary-container/20 rounded-2xl flex flex-col items-center text-center shadow-sm border border-primary/10 hover:shadow-xl hover:-translate-y-2 hover:bg-primary-container/30 transition-all duration-500 group">
+                  <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                    <span className="material-symbols-outlined text-3xl text-primary" data-icon="flexibility">flex_direction</span>
+                  </div>
                   <h3 className="font-display-lg text-headline-sm mb-4">Functional Mobility</h3>
-                  <p className="text-on-surface-variant">Develop strength and flexibility that supports your daily movements and long-term health.</p>
+                  <p className="text-on-surface-variant font-light text-sm sm:text-base leading-relaxed">Develop strength and flexibility that supports your daily movements and long-term health.</p>
                 </div>
-                <div className="p-12 bg-surface-container rounded-xl flex flex-col items-center text-center shadow-sm hover:shadow-xl hover:-translate-y-2 transition-all duration-500">
-                  <span className="material-symbols-outlined text-4xl text-primary mb-6" data-icon="monitor_heart">monitor_heart</span>
+                <div className="p-8 sm:p-12 bg-surface-container rounded-2xl flex flex-col items-center text-center shadow-sm hover:shadow-xl hover:-translate-y-2 transition-all duration-500 group">
+                  <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                    <span className="material-symbols-outlined text-3xl text-primary" data-icon="monitor_heart">monitor_heart</span>
+                  </div>
                   <h3 className="font-display-lg text-headline-sm mb-4">Vagal Tone</h3>
-                  <p className="text-on-surface-variant">Optimize your nervous system through conscious breathing and restorative postures.</p>
+                  <p className="text-on-surface-variant font-light text-sm sm:text-base leading-relaxed">Optimize your nervous system through conscious breathing and restorative postures.</p>
                 </div>
               </div>
             </div>
@@ -244,17 +250,19 @@ export default function Home() {
                   Practice in classes with other members of the community, live via zoom
                 </p>
 
-                <div className="flex flex-wrap justify-center gap-3 mb-12">
-                  {[
-                    "Classes for every health goal",
-                    "70+ live classes every day",
-                    "Small groups for real connection",
-                    "Motivation and accountability"
-                  ].map((pill, i) => (
-                    <span key={i} className="px-5 py-2.5 rounded-full text-[13px] md:text-sm font-medium text-[#d37051] bg-[#fef7f5] border border-[#fae2da] shadow-sm">
-                      {pill}
-                    </span>
-                  ))}
+                <div className="overflow-x-auto pb-4 -mx-4 px-4 scrollbar-hide md:overflow-visible md:pb-0 md:mx-0 md:px-0">
+                  <div className="flex flex-nowrap md:flex-wrap justify-start md:justify-center gap-3">
+                    {[
+                      "Classes for every health goal",
+                      "70+ live classes every day",
+                      "Small groups for real connection",
+                      "Motivation and accountability"
+                    ].map((pill, i) => (
+                      <span key={i} className="whitespace-nowrap px-6 py-3 rounded-full text-xs md:text-sm font-medium text-[#d37051] bg-[#fef7f5] border border-[#fae2da] shadow-sm">
+                        {pill}
+                      </span>
+                    ))}
+                  </div>
                 </div>
               </div>
 
@@ -294,27 +302,27 @@ export default function Home() {
               </div>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
 
-                <div className="p-8 bg-surface rounded-xl flex flex-col h-full border border-on-surface/5 hover:border-primary/20 hover:shadow-xl hover:-translate-y-2 transition-all duration-500">
-                  <h3 className="font-display-lg text-headline-sm mb-2">Single Session</h3>
+                <div className="p-8 sm:p-10 bg-surface rounded-2xl flex flex-col h-full border border-on-surface/5 hover:border-primary/20 hover:shadow-xl hover:-translate-y-2 transition-all duration-500">
+                  <h3 className="font-display-lg text-headline-sm mb-2 text-primary">Single Session</h3>
                   <div className="mb-6">
-                    <span className="text-4xl font-bold text-primary">₹700</span>
-                    <span className="text-on-surface-variant">/session</span>
+                    <span className="text-5xl font-bold text-on-surface">₹700</span>
+                    <span className="text-on-surface-variant ml-2 text-sm uppercase tracking-widest font-label-caps">/ session</span>
                   </div>
                   <ul className="space-y-4 mb-10 flex-grow">
-                    <li className="flex items-center gap-3 text-on-surface-variant"><span className="material-symbols-outlined text-primary text-sm" data-icon="done">done</span> 45-60 minutes</li>
-                    <li className="flex items-center gap-3 text-on-surface-variant"><span className="material-symbols-outlined text-primary text-sm" data-icon="done">done</span> Introductory / Drop-in</li>
+                    <li className="flex items-center gap-3 text-on-surface-variant font-light"><span className="material-symbols-outlined text-primary text-[18px]" data-icon="done">done</span> 45-60 minutes</li>
+                    <li className="flex items-center gap-3 text-on-surface-variant font-light"><span className="material-symbols-outlined text-primary text-[18px]" data-icon="done">done</span> Introductory / Drop-in</li>
                   </ul>
                 </div>
 
-                <div className="p-8 bg-surface rounded-xl flex flex-col h-full border border-on-surface/5 hover:border-primary/20 hover:shadow-xl hover:-translate-y-2 transition-all duration-500">
-                  <h3 className="font-display-lg text-headline-sm mb-2">Group Classes</h3>
+                <div className="p-8 sm:p-10 bg-surface rounded-2xl flex flex-col h-full border border-on-surface/5 hover:border-primary/20 hover:shadow-xl hover:-translate-y-2 transition-all duration-500">
+                  <h3 className="font-display-lg text-headline-sm mb-2 text-primary">Group Classes</h3>
                   <div className="mb-6">
-                    <span className="text-4xl font-bold text-primary">₹3,000</span>
-                    <span className="text-on-surface-variant">/mo</span>
+                    <span className="text-5xl font-bold text-on-surface">₹3,000</span>
+                    <span className="text-on-surface-variant ml-2 text-sm uppercase tracking-widest font-label-caps">/ mo</span>
                   </div>
                   <ul className="space-y-4 mb-10 flex-grow">
-                    <li className="flex items-center gap-3 text-on-surface-variant"><span className="material-symbols-outlined text-primary text-sm" data-icon="done">done</span> 20 Classes in a month</li>
-                    <li className="flex items-center gap-3 text-on-surface-variant"><span className="material-symbols-outlined text-primary text-sm" data-icon="done">done</span> Monday to Friday</li>
+                    <li className="flex items-center gap-3 text-on-surface-variant font-light"><span className="material-symbols-outlined text-primary text-[18px]" data-icon="done">done</span> 20 Classes in a month</li>
+                    <li className="flex items-center gap-3 text-on-surface-variant font-light"><span className="material-symbols-outlined text-primary text-[18px]" data-icon="done">done</span> Monday to Friday</li>
                   </ul>
                 </div>
 
@@ -403,11 +411,11 @@ export default function Home() {
         href="https://wa.me/919491803261"
         target="_blank"
         rel="noopener noreferrer"
-        className="fixed bottom-8 right-8 cursor-pointer animate-bounce-slow group hover:scale-110 transition-all z-50"
+        className="fixed bottom-6 right-6 sm:bottom-8 sm:right-8 cursor-pointer animate-bounce-slow group hover:scale-110 transition-all z-50"
       >
-        <img src="/whatsapp.png" alt="WhatsApp Support" className="h-16 w-16 drop-shadow-lg" />
+        <img src="/whatsapp.png" alt="WhatsApp Support" className="h-14 w-14 sm:h-16 sm:w-16 drop-shadow-lg" />
 
-        <div className="absolute right-20 bottom-2 bg-surface shadow-xl p-4 rounded-xl w-48 opacity-0 group-hover:opacity-100 pointer-events-none transition-all border border-on-surface/5">
+        <div className="absolute right-16 sm:right-20 bottom-2 bg-surface shadow-xl p-4 rounded-xl w-48 opacity-0 group-hover:opacity-100 pointer-events-none transition-all border border-on-surface/5 hidden sm:block">
           <div className="flex items-center gap-2 mb-1">
             <div className="w-2 h-2 bg-green-500 rounded-full"></div>
             <span className="font-label-caps text-[10px] text-on-surface-variant">WE ARE ONLINE</span>

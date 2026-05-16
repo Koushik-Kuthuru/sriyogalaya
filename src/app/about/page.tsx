@@ -8,7 +8,7 @@ export default function AboutYourGuide() {
         <div className="grid grid-cols-1 md:grid-cols-12 gap-12 lg:gap-20 items-center">
           <div className="md:col-span-6 lg:col-span-7 order-2 md:order-1">
             <span className="font-label-caps text-secondary text-[11px] font-bold tracking-[0.3em] uppercase mb-6 block">Lead Instructor</span>
-            <h1 className="font-display-lg text-5xl md:text-6xl lg:text-7xl text-primary mb-8 font-semibold tracking-tight">Meet Sri Davi</h1>
+            <h1 className="font-display-lg text-5xl md:text-6xl lg:text-7xl text-primary mb-8 font-semibold tracking-tight">Meet Sri Devi</h1>
             <p className="font-body-lg text-lg text-on-surface-variant max-w-xl leading-relaxed font-light">
               International Yoga and Lifestyle Specialist, Empowering midlife transformation / Prenatal / Ashtanga / Hatha / Contemporary Yoga.
             </p>
@@ -25,7 +25,7 @@ export default function AboutYourGuide() {
           </div>
           <div className="md:col-span-6 lg:col-span-5 order-1 md:order-2">
             <div className="relative aspect-[4/5] rounded-[2.5rem] overflow-hidden shadow-2xl shadow-primary/20 border border-on-surface/5 group">
-              <img alt="Sri Davi Portrait" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-[10s]" title="A professional and welcoming portrait of a yoga instructor in a bright, sun-drenched studio. She is sitting in a relaxed, cross-legged position on a sage green mat, wearing high-quality minimalist athletic wear in sand colors. The background features soft bokeh of indoor plants and white linen curtains, creating a serene, high-end editorial atmosphere with soft, warm lighting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCZwMYai0sjSq2EK7eG0KTCtm6h7_Jw6oaIsKphvxOFdCmNC9lwVtWbm5c8q5V6MWKznCyxSkZ6EXCRaHOkm8lFPtKq3pnjCUN5TBuI7z4FcJ2QaUb_rZqdxqKF-rpjYRaslFlvfGFS1D0aCpXYm53IbPkzugxzqRn5f2BLQ73PWo7RPvitl3W9qug-OnZA5wBOAbZvHpb33HgQTvIszX0FWZcCwdZcrlmOY7xArS8CZeISwyVL3IiM0Hv5qUyshqtsSQNPPYIRZQ" />
+              <img alt="Sri Devi Portrait" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-[10s]" src="/images/IMG_0509.jpeg" />
             </div>
           </div>
         </div>
@@ -150,7 +150,7 @@ export default function AboutYourGuide() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
           <div className="bg-surface-container-low p-12 rounded-[2.5rem] relative">
             <span className="material-symbols-outlined text-secondary/20 text-8xl absolute top-6 right-8">format_quote</span>
-            <p className="font-body-lg text-on-surface mb-8 relative z-10">"Training with Sri Davi online feels more personal than any studio class I've attended. Her attention to detail and her ability to read my energy through a screen is uncanny. My practice has reached heights I never thought possible."</p>
+            <p className="font-body-lg text-on-surface mb-8 relative z-10">"Training with Sri Devi online feels more personal than any studio class I've attended. Her attention to detail and her ability to read my energy through a screen is uncanny. My practice has reached heights I never thought possible."</p>
             <div className="flex items-center gap-4">
               <div className="w-12 h-12 rounded-full bg-primary-container"></div>
               <div>
@@ -179,9 +179,9 @@ export default function AboutYourGuide() {
           <div className="absolute bottom-0 left-0 w-64 h-64 bg-secondary/20 rounded-full -ml-32 -mb-32 blur-3xl pointer-events-none"></div>
           <div className="relative z-10">
             <h2 className="font-display-lg text-4xl md:text-5xl lg:text-6xl text-white mb-6 font-semibold tracking-tight">Begin Your Conscious Journey</h2>
-            <p className="text-white/70 mb-12 max-w-2xl mx-auto font-body-lg font-light leading-relaxed">Reach out to discuss your wellness goals and experience Sri Davi's teaching style first-hand.</p>
+            <p className="text-white/70 mb-12 max-w-2xl mx-auto font-body-lg font-light leading-relaxed">Reach out to discuss your wellness goals and experience Sri Devi's teaching style first-hand.</p>
             <Link href="/connect-with-us" className="inline-block bg-white text-black px-12 py-5 rounded-full font-label-caps text-[11px] font-bold uppercase tracking-[0.2em] hover:bg-white/90 hover:-translate-y-1 hover:shadow-[0_0_30px_rgba(255,255,255,0.2)] transition-all">
-              Connect With Sri Davi
+              Connect With Sri Devi
             </Link>
           </div>
         </div>
