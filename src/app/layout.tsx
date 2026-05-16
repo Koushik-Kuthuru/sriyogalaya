@@ -14,8 +14,87 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "SriYogalaya.com",
-  description: "Tranquil Premium Wellness Sanctuary",
+  metadataBase: new URL("https://sriyogalaya.com"),
+  title: {
+    default: "SriYogalaya — Online Yoga Classes | 1-on-1 & Group Sessions with Certified Instructor Sri Devi",
+    template: "%s | SriYogalaya",
+  },
+  description:
+    "Join SriYogalaya for personalized 1-on-1 online yoga sessions & live group classes via Zoom. Certified instructor Sri Devi offers Hatha, Ashtanga, Vinyasa & Prenatal yoga tailored to your body, goals & breath. Start your transformation today.",
+  keywords: [
+    "online yoga classes",
+    "1-on-1 yoga sessions",
+    "personalized yoga",
+    "yoga classes via Zoom",
+    "group yoga classes online",
+    "Hatha yoga online",
+    "Ashtanga yoga online",
+    "Vinyasa yoga",
+    "Prenatal yoga online",
+    "yoga for beginners",
+    "yoga for stress relief",
+    "yoga for weight loss",
+    "certified yoga instructor",
+    "Sri Devi yoga",
+    "SriYogalaya",
+    "online yoga India",
+    "yoga classes near me",
+    "best online yoga",
+    "live yoga classes",
+    "yoga for mental health",
+    "yoga for flexibility",
+    "midlife fitness yoga",
+    "yoga for women over 40",
+    "contemporary yoga",
+    "private yoga sessions",
+  ],
+  authors: [{ name: "Sri Devi", url: "https://sriyogalaya.com/about" }],
+  creator: "SriYogalaya",
+  publisher: "SriYogalaya",
+  formatDetection: {
+    telephone: true,
+    email: true,
+    address: true,
+  },
+  alternates: {
+    canonical: "https://sriyogalaya.com",
+  },
+  openGraph: {
+    type: "website",
+    locale: "en_IN",
+    url: "https://sriyogalaya.com",
+    siteName: "SriYogalaya",
+    title: "SriYogalaya — Online Yoga Classes | Personalized 1-on-1 & Group Sessions",
+    description:
+      "Transform your mind & body with personalized yoga. Certified instructor Sri Devi offers live 1-on-1 and group yoga classes via Zoom — Hatha, Ashtanga, Vinyasa & Prenatal yoga.",
+    images: [
+      {
+        url: "/images/IMG_4972.jpeg",
+        width: 1200,
+        height: 630,
+        alt: "SriYogalaya — Online Yoga Classes with Sri Devi",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "SriYogalaya — Online Yoga Classes | 1-on-1 & Group Sessions",
+    description:
+      "Personalized 1-on-1 yoga & live group classes via Zoom with certified instructor Sri Devi. Hatha, Ashtanga, Vinyasa & more.",
+    images: ["/images/IMG_4972.jpeg"],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+  category: "Health & Fitness",
 };
 
 export default function RootLayout({
@@ -29,6 +108,187 @@ export default function RootLayout({
         <link
           href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"
           rel="stylesheet"
+        />
+        {/* JSON-LD: Organization Schema */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "HealthAndBeautyBusiness",
+              "@id": "https://sriyogalaya.com/#organization",
+              name: "SriYogalaya",
+              alternateName: "Sri Yogalaya",
+              url: "https://sriyogalaya.com",
+              logo: "https://sriyogalaya.com/images/IMG_4972.jpeg",
+              image: "https://sriyogalaya.com/images/IMG_4972.jpeg",
+              description:
+                "SriYogalaya offers personalized 1-on-1 online yoga sessions and live group yoga classes via Zoom with certified international instructor Sri Devi. Specializing in Hatha, Ashtanga, Vinyasa, Prenatal & Contemporary yoga for all levels.",
+              telephone: "+919491803261",
+              email: "connect@sriyogalaya.com",
+              address: {
+                "@type": "PostalAddress",
+                addressCountry: "IN",
+              },
+              geo: {
+                "@type": "GeoCoordinates",
+                latitude: "17.385",
+                longitude: "78.4867",
+              },
+              areaServed: {
+                "@type": "GeoCircle",
+                geoMidpoint: {
+                  "@type": "GeoCoordinates",
+                  latitude: "0",
+                  longitude: "0",
+                },
+                geoRadius: "40075000",
+              },
+              sameAs: [
+                "https://wa.me/919491803261",
+              ],
+              founder: {
+                "@type": "Person",
+                name: "Sri Devi",
+                jobTitle: "International Yoga & Lifestyle Specialist",
+                description: "Certified international yoga and fitness instructor specializing in midlife transformation, Prenatal, Ashtanga, Hatha & Contemporary Yoga. Started at 42, thriving at 53.",
+                url: "https://sriyogalaya.com/about",
+              },
+              priceRange: "₹700 - ₹5,000",
+              currenciesAccepted: "INR",
+              paymentAccepted: "UPI, Bank Transfer, Cash",
+              openingHoursSpecification: [
+                {
+                  "@type": "OpeningHoursSpecification",
+                  dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+                  opens: "06:00",
+                  closes: "20:00",
+                },
+                {
+                  "@type": "OpeningHoursSpecification",
+                  dayOfWeek: ["Saturday"],
+                  opens: "07:00",
+                  closes: "12:00",
+                },
+              ],
+              aggregateRating: {
+                "@type": "AggregateRating",
+                ratingValue: "4.9",
+                reviewCount: "500",
+                bestRating: "5",
+              },
+              hasOfferCatalog: {
+                "@type": "OfferCatalog",
+                name: "Yoga Classes & Sessions",
+                itemListElement: [
+                  {
+                    "@type": "Offer",
+                    itemOffered: {
+                      "@type": "Service",
+                      name: "1-on-1 Online Yoga Session",
+                      description: "Personalized private yoga session via Zoom tailored to your anatomy, goals, and breath. 45-60 minutes.",
+                    },
+                    price: "700",
+                    priceCurrency: "INR",
+                  },
+                  {
+                    "@type": "Offer",
+                    itemOffered: {
+                      "@type": "Service",
+                      name: "Group Yoga Classes (Monthly)",
+                      description: "Live group yoga classes via Zoom, 20 classes per month, Monday to Friday. Small groups for real connection.",
+                    },
+                    price: "3000",
+                    priceCurrency: "INR",
+                  },
+                  {
+                    "@type": "Offer",
+                    itemOffered: {
+                      "@type": "Service",
+                      name: "Monthly 1-on-1 Yoga Package",
+                      description: "20 personalized private yoga sessions per month via Zoom with Sri Devi.",
+                    },
+                    price: "5000",
+                    priceCurrency: "INR",
+                  },
+                ],
+              },
+            }),
+          }}
+        />
+        {/* JSON-LD: WebSite Schema with SearchAction */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              name: "SriYogalaya",
+              url: "https://sriyogalaya.com",
+              description: "Premium online yoga classes — personalized 1-on-1 sessions and live group classes with certified instructor Sri Devi.",
+              publisher: {
+                "@type": "Organization",
+                name: "SriYogalaya",
+              },
+              potentialAction: {
+                "@type": "SearchAction",
+                target: "https://sriyogalaya.com/?q={search_term_string}",
+                "query-input": "required name=search_term_string",
+              },
+            }),
+          }}
+        />
+        {/* JSON-LD: FAQPage for AEO — common yoga questions */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              mainEntity: [
+                {
+                  "@type": "Question",
+                  name: "What are the benefits of online yoga classes?",
+                  acceptedAnswer: {
+                    "@type": "Answer",
+                    text: "Online yoga classes offer personalized attention from certified instructors, flexible scheduling from the comfort of your home, real-time postural corrections via HD video, and cost-effective access to expert guidance. At SriYogalaya, Sri Devi provides 1-on-1 sessions tailored to your anatomy, goals, and breath.",
+                  },
+                },
+                {
+                  "@type": "Question",
+                  name: "How much do online yoga classes cost?",
+                  acceptedAnswer: {
+                    "@type": "Answer",
+                    text: "At SriYogalaya, a single 1-on-1 session costs ₹700 (45-60 minutes). Group yoga classes are ₹3,000/month for 20 classes (Monday-Friday). Monthly 1-on-1 packages with 20 personalized sessions are available for ₹5,000/month.",
+                  },
+                },
+                {
+                  "@type": "Question",
+                  name: "Can beginners join online yoga classes?",
+                  acceptedAnswer: {
+                    "@type": "Answer",
+                    text: "Absolutely! SriYogalaya welcomes all levels — from complete beginners to advanced practitioners. Sri Devi designs every session based on your unique biomechanics, fitness level, and goals. The 1-on-1 format ensures you receive personalized attention and safe guidance.",
+                  },
+                },
+                {
+                  "@type": "Question",
+                  name: "What types of yoga does SriYogalaya offer?",
+                  acceptedAnswer: {
+                    "@type": "Answer",
+                    text: "SriYogalaya offers Hatha yoga, Ashtanga yoga, Vinyasa Flow, Prenatal yoga, Contemporary yoga, and Restorative Yin yoga. All classes are conducted live via Zoom by certified international instructor Sri Devi.",
+                  },
+                },
+                {
+                  "@type": "Question",
+                  name: "Is yoga good for stress relief and mental health?",
+                  acceptedAnswer: {
+                    "@type": "Answer",
+                    text: "Yes, yoga is scientifically proven to reduce cortisol levels, improve vagal tone, and enhance mental clarity. SriYogalaya's approach combines conscious breathing, restorative postures, and mindfulness techniques to help you find peace amidst the chaos of modern life. 98% of our members report significant stress reduction.",
+                  },
+                },
+              ],
+            }),
+          }}
         />
       </head>
       <body
