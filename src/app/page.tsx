@@ -6,60 +6,60 @@ export default function Home() {
     <>
       <main className="animate-in fade-in duration-1000">
 
-        <section className="relative h-[90vh] flex items-center overflow-hidden">
+        <section className="relative min-h-[75dvh] lg:min-h-0 lg:h-[90vh] flex items-center justify-center overflow-hidden pt-16 lg:pt-0">
           {/* Authentic Background image with Ken Burns */}
           <div className="absolute inset-0 z-0">
-            <img className="w-full h-full object-cover scale-105 animate-[kenburns_20s_ease-out_infinite_alternate]" alt="SriYogalaya authentic outdoor group yoga session" src="/images/IMG_4972.jpeg" />
-            <div className="absolute inset-0 bg-gradient-to-r from-surface/95 via-surface/80 to-surface/40"></div>
-            <div className="absolute inset-0 bg-gradient-to-t from-surface/40 via-transparent to-transparent"></div>
+            <img className="w-full h-full object-cover object-[65%_center] lg:object-center scale-105 animate-[kenburns_20s_ease-out_infinite_alternate]" alt="SriYogalaya authentic outdoor group yoga session" src="/images/IMG_4972.jpeg" />
+            <div className="absolute inset-0 bg-gradient-to-b lg:bg-gradient-to-r from-surface via-surface/90 to-surface/40 lg:via-surface/80 lg:to-surface/40"></div>
+            <div className="absolute inset-0 bg-gradient-to-t from-surface lg:from-surface/40 via-surface/20 lg:via-transparent to-transparent"></div>
           </div>
 
-          <div className="relative z-10 max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop w-full h-full flex items-center">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center w-full py-20">
+          <div className="relative z-10 max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop w-full h-full flex flex-col justify-center">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center w-full py-8 lg:py-20">
 
               {/* Left: Content */}
-              <div className="max-w-xl">
+              <div className="max-w-xl mx-auto lg:mx-0 flex flex-col items-center text-center lg:items-start lg:text-left w-full">
                 {/* Badge */}
                 <div className="animate-in slide-in-from-bottom-4 duration-700 delay-200 fill-mode-both">
-                  <span className="inline-flex items-center gap-2 bg-primary/10 backdrop-blur-sm border border-primary/20 text-primary px-4 py-2 rounded-full text-xs font-bold tracking-[0.15em] uppercase">
+                  <span className="inline-flex items-center gap-2 bg-primary/10 backdrop-blur-sm border border-primary/20 text-primary px-4 py-2 rounded-full text-xs font-bold tracking-[0.15em] uppercase shadow-sm">
                     <span className="w-1.5 h-1.5 bg-green-500 rounded-full animate-pulse"></span>
                     Live Online Sessions
                   </span>
                 </div>
 
                 {/* Headline */}
-                <h1 className="font-display-lg text-[2.5rem] sm:text-5xl md:text-6xl lg:text-[4rem] mt-6 sm:mt-8 mb-6 leading-[1.1] tracking-tight animate-in slide-in-from-bottom-8 duration-700 delay-400 fill-mode-both">
+                <h1 className="font-display-lg text-[2.75rem] leading-[1.05] sm:text-5xl md:text-6xl lg:text-[4rem] mt-6 mb-4 lg:mt-8 lg:mb-6 tracking-tight animate-in slide-in-from-bottom-8 duration-700 delay-400 fill-mode-both">
                   Transform Your
-                  <span className="block text-primary">Mind &amp; Body</span>
+                  <span className="block text-primary mt-1 lg:mt-0">Mind &amp; Body</span>
                 </h1>
 
                 {/* Subheadline */}
-                <p className="text-base sm:text-lg md:text-xl text-on-surface-variant mb-10 leading-relaxed animate-in slide-in-from-bottom-8 duration-700 delay-600 fill-mode-both max-w-md font-light">
+                <p className="text-[1.05rem] sm:text-lg md:text-xl text-on-surface-variant mb-8 lg:mb-10 leading-relaxed animate-in slide-in-from-bottom-8 duration-700 delay-600 fill-mode-both max-w-sm sm:max-w-md font-light">
                   Experience curated 1-on-1 yoga sessions via Zoom, tailored precisely to your anatomy, goals, and breath.
                 </p>
 
                 {/* CTA Buttons */}
-                <div className="flex flex-col sm:flex-row gap-4 sm:gap-3 animate-in slide-in-from-bottom-8 duration-700 delay-800 fill-mode-both">
-                  <Link className="bg-primary text-on-primary px-8 py-5 sm:py-4 rounded-full font-label-caps text-[11px] tracking-[0.2em] hover:bg-primary/90 hover:-translate-y-1 hover:shadow-xl hover:shadow-primary/20 transition-all duration-300 inline-flex items-center justify-center gap-2 uppercase font-bold" href="/connect-with-us">
+                <div className="flex flex-col sm:flex-row gap-4 sm:gap-3 w-full sm:w-auto animate-in slide-in-from-bottom-8 duration-700 delay-800 fill-mode-both">
+                  <Link className="bg-primary text-on-primary w-full sm:w-auto px-8 py-5 sm:py-4 rounded-full font-label-caps text-[11px] tracking-[0.2em] hover:bg-primary/90 hover:-translate-y-1 hover:shadow-xl hover:shadow-primary/20 transition-all duration-300 inline-flex items-center justify-center gap-2 uppercase font-bold" href="/connect-with-us">
                     Start Your Journey
                     <span className="material-symbols-outlined text-[16px]">arrow_forward</span>
                   </Link>
-                  <Link className="border border-on-surface/15 text-on-surface px-8 py-5 sm:py-4 rounded-full font-label-caps text-[11px] tracking-[0.2em] hover:bg-on-surface/5 hover:-translate-y-1 transition-all duration-300 inline-flex items-center justify-center uppercase backdrop-blur-sm" href="/success-stories">Explore Stories</Link>
+                  <Link className="border border-on-surface/15 text-on-surface w-full sm:w-auto px-8 py-5 sm:py-4 rounded-full font-label-caps text-[11px] tracking-[0.2em] hover:bg-on-surface/5 hover:-translate-y-1 transition-all duration-300 inline-flex items-center justify-center uppercase backdrop-blur-sm" href="/success-stories">Explore Stories</Link>
                 </div>
 
                 {/* Trust badges */}
-                <div className="mt-12 flex flex-wrap gap-6 animate-in slide-in-from-bottom-4 duration-700 delay-1000 fill-mode-both">
-                  <div className="flex items-center gap-2 text-on-surface-variant/70">
-                    <span className="material-symbols-outlined text-primary text-[18px]" style={{ fontVariationSettings: "'FILL' 1" }}>verified</span>
-                    <span className="text-xs font-medium tracking-wide">Certified Instructor</span>
+                <div className="mt-8 lg:mt-12 flex flex-wrap justify-center lg:justify-start gap-4 sm:gap-6 animate-in slide-in-from-bottom-4 duration-700 delay-1000 fill-mode-both opacity-80">
+                  <div className="flex items-center gap-2 text-on-surface-variant/80 bg-surface/50 backdrop-blur-md px-3 py-1.5 rounded-full border border-on-surface/5">
+                    <span className="material-symbols-outlined text-primary text-[16px]" style={{ fontVariationSettings: "'FILL' 1" }}>verified</span>
+                    <span className="text-[10px] sm:text-xs font-medium tracking-wide">Certified</span>
                   </div>
-                  <div className="flex items-center gap-2 text-on-surface-variant/70">
-                    <span className="material-symbols-outlined text-primary text-[18px]" style={{ fontVariationSettings: "'FILL' 1" }}>language</span>
-                    <span className="text-xs font-medium tracking-wide">Online Worldwide</span>
+                  <div className="flex items-center gap-2 text-on-surface-variant/80 bg-surface/50 backdrop-blur-md px-3 py-1.5 rounded-full border border-on-surface/5">
+                    <span className="material-symbols-outlined text-primary text-[16px]" style={{ fontVariationSettings: "'FILL' 1" }}>language</span>
+                    <span className="text-[10px] sm:text-xs font-medium tracking-wide">Worldwide</span>
                   </div>
-                  <div className="flex items-center gap-2 text-on-surface-variant/70">
-                    <span className="material-symbols-outlined text-primary text-[18px]" style={{ fontVariationSettings: "'FILL' 1" }}>groups</span>
-                    <span className="text-xs font-medium tracking-wide">50+ Students</span>
+                  <div className="flex items-center gap-2 text-on-surface-variant/80 bg-surface/50 backdrop-blur-md px-3 py-1.5 rounded-full border border-on-surface/5">
+                    <span className="material-symbols-outlined text-primary text-[16px]" style={{ fontVariationSettings: "'FILL' 1" }}>groups</span>
+                    <span className="text-[10px] sm:text-xs font-medium tracking-wide">50+ Students</span>
                   </div>
                 </div>
               </div>
@@ -110,30 +110,30 @@ export default function Home() {
         <ScrollReveal>
           <section className="py-section-gap">
             <div className="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
-              <div className="text-center mb-20">
-                <h2 className="font-display-lg text-headline-md mb-4">Why Personalized Practice?</h2>
-                <p className="text-on-surface-variant">Beyond the studio, into your soul.</p>
+              <div className="text-center mb-16 md:mb-20">
+                <h2 className="font-display-lg text-3xl md:text-4xl lg:text-headline-md mb-4">Why Personalized Practice?</h2>
+                <p className="text-on-surface-variant text-sm md:text-base">Beyond the studio, into your soul.</p>
               </div>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-gutter mt-12">
                 <div className="p-8 sm:p-12 bg-surface-container rounded-2xl flex flex-col items-center text-center shadow-sm hover:shadow-xl hover:-translate-y-2 transition-all duration-500 group">
                   <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
                     <span className="material-symbols-outlined text-3xl text-primary" data-icon="self_improvement">self_improvement</span>
                   </div>
-                  <h3 className="font-display-lg text-headline-sm mb-4">Mental Clarity</h3>
+                  <h3 className="font-display-lg text-2xl md:text-headline-sm mb-3 md:mb-4">Mental Clarity</h3>
                   <p className="text-on-surface-variant font-light text-sm sm:text-base leading-relaxed">Reduce cortisol levels and find a peaceful center amidst the chaos of modern life.</p>
                 </div>
                 <div className="p-8 sm:p-12 bg-primary-container/20 rounded-2xl flex flex-col items-center text-center shadow-sm border border-primary/10 hover:shadow-xl hover:-translate-y-2 hover:bg-primary-container/30 transition-all duration-500 group">
                   <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
                     <span className="material-symbols-outlined text-3xl text-primary" data-icon="flexibility">flex_direction</span>
                   </div>
-                  <h3 className="font-display-lg text-headline-sm mb-4">Functional Mobility</h3>
+                  <h3 className="font-display-lg text-2xl md:text-headline-sm mb-3 md:mb-4">Functional Mobility</h3>
                   <p className="text-on-surface-variant font-light text-sm sm:text-base leading-relaxed">Develop strength and flexibility that supports your daily movements and long-term health.</p>
                 </div>
                 <div className="p-8 sm:p-12 bg-surface-container rounded-2xl flex flex-col items-center text-center shadow-sm hover:shadow-xl hover:-translate-y-2 transition-all duration-500 group">
                   <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
                     <span className="material-symbols-outlined text-3xl text-primary" data-icon="monitor_heart">monitor_heart</span>
                   </div>
-                  <h3 className="font-display-lg text-headline-sm mb-4">Vagal Tone</h3>
+                  <h3 className="font-display-lg text-2xl md:text-headline-sm mb-3 md:mb-4">Vagal Tone</h3>
                   <p className="text-on-surface-variant font-light text-sm sm:text-base leading-relaxed">Optimize your nervous system through conscious breathing and restorative postures.</p>
                 </div>
               </div>
@@ -157,29 +157,29 @@ export default function Home() {
                 <div className="w-full lg:w-1/2">
                   <div className="inline-flex items-center gap-3 mb-6">
                     <span className="w-8 h-[1px] bg-secondary"></span>
-                    <span className="font-label-caps text-secondary text-sm tracking-[0.2em] font-bold">YOUR GUIDE</span>
+                    <span className="font-label-caps text-secondary text-xs md:text-sm tracking-[0.2em] font-bold">YOUR GUIDE</span>
                   </div>
-                  <h2 className="font-display-lg text-5xl md:text-6xl mb-8 font-semibold tracking-tight text-on-surface">Meet Sri Devi</h2>
-                  <div className="relative p-8 rounded-2xl bg-surface shadow-sm border border-on-surface/5 mb-8">
-                    <span className="material-symbols-outlined text-4xl text-primary/20 absolute top-4 right-4" style={{ fontVariationSettings: "'FILL' 1" }}>format_quote</span>
-                    <p className="font-display-lg text-2xl text-primary mb-2 leading-tight">
+                  <h2 className="font-display-lg text-4xl md:text-5xl lg:text-6xl mb-6 md:mb-8 font-semibold tracking-tight text-on-surface">Meet Sri Devi</h2>
+                  <div className="relative p-6 md:p-8 rounded-2xl bg-surface shadow-sm border border-on-surface/5 mb-8">
+                    <span className="material-symbols-outlined text-3xl md:text-4xl text-primary/20 absolute top-4 right-4" style={{ fontVariationSettings: "'FILL' 1" }}>format_quote</span>
+                    <p className="font-display-lg text-xl md:text-2xl text-primary mb-2 leading-tight">
                       "Started at 42. Thriving at 53."
                     </p>
-                    <p className="text-on-surface-variant font-light">
+                    <p className="text-on-surface-variant font-light text-sm md:text-base">
                       Redefining fitness after 40: Strength, Joy, and Mindfulness.
                     </p>
                   </div>
-                  <p className="font-body-lg text-lg text-on-surface-variant mb-10 leading-relaxed font-light">
+                  <p className="font-body-lg text-base md:text-lg text-on-surface-variant mb-10 leading-relaxed font-light">
                     I discovered the profound transformative power of yoga in my early 40s. Now in my 50s, I am a certified International Yoga and Fitness Instructor dedicated to helping others realize it is never too late to begin. My personalized classes are designed precisely for your unique requirements, focusing on empowering midlife transformations.
                   </p>
-                  <div className="grid grid-cols-2 gap-8 mb-12 border-t border-on-surface/10 pt-8">
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 md:gap-8 mb-12 border-t border-on-surface/10 pt-8">
                     <div>
-                      <h4 className="font-display-lg text-2xl text-on-surface mb-1">Global Reach</h4>
-                      <p className="text-label-caps text-primary text-xs font-bold tracking-widest uppercase">Worldwide Sessions</p>
+                      <h4 className="font-display-lg text-xl md:text-2xl text-on-surface mb-1">Global Reach</h4>
+                      <p className="text-label-caps text-primary text-[10px] md:text-xs font-bold tracking-widest uppercase">Worldwide Sessions</p>
                     </div>
                     <div>
-                      <h4 className="font-display-lg text-2xl text-on-surface mb-1">Specialist</h4>
-                      <p className="text-label-caps text-primary text-xs font-bold tracking-widest uppercase">Midlife Empowerment</p>
+                      <h4 className="font-display-lg text-xl md:text-2xl text-on-surface mb-1">Specialist</h4>
+                      <p className="text-label-caps text-primary text-[10px] md:text-xs font-bold tracking-widest uppercase">Midlife Empowerment</p>
                     </div>
                   </div>
                 </div>
@@ -197,8 +197,8 @@ export default function Home() {
                     <span className="w-8 h-[1px] bg-secondary"></span>
                     <span className="font-label-caps text-secondary text-sm tracking-[0.2em] font-bold uppercase">Personalized Mastery</span>
                   </div>
-                  <h2 className="font-display-lg text-5xl md:text-7xl mb-8 font-semibold tracking-tight text-on-surface leading-[1.1]">1-on-1 Yoga Sessions</h2>
-                  <p className="font-body-lg text-lg text-on-surface-variant mb-8 leading-relaxed font-light">
+                  <h2 className="font-display-lg text-4xl md:text-5xl lg:text-7xl mb-6 md:mb-8 font-semibold tracking-tight text-on-surface leading-[1.1]">1-on-1 Yoga Sessions</h2>
+                  <p className="font-body-lg text-base md:text-lg text-on-surface-variant mb-8 leading-relaxed font-light">
                     Experience curated yoga sessions via Zoom, tailored precisely to your anatomy, goals, and breath. Our 1-on-1 sessions aren't about judgment—they're about focused support to help you move safely and celebrate every small win.
                   </p>
                   <div className="space-y-4 mb-10">
@@ -208,15 +208,15 @@ export default function Home() {
                       "Flexible scheduling that fits your unique lifestyle",
                       "A safe, private space to ask questions freely"
                     ].map((item, i) => (
-                      <div key={i} className="flex items-center gap-4 text-on-surface-variant font-light">
-                        <span className="w-6 h-6 rounded-full bg-primary/10 flex items-center justify-center text-primary">
+                      <div key={i} className="flex items-center gap-4 text-on-surface-variant font-light text-sm md:text-base">
+                        <span className="shrink-0 w-6 h-6 rounded-full bg-primary/10 flex items-center justify-center text-primary">
                           <span className="material-symbols-outlined text-[14px]">done</span>
                         </span>
                         {item}
                       </div>
                     ))}
                   </div>
-                  <a href="#connect" className="inline-flex items-center gap-2 px-10 py-5 bg-primary text-on-primary rounded-full font-medium hover:bg-primary/90 transition-all shadow-xl shadow-primary/20 group">
+                  <a href="#connect" className="inline-flex items-center justify-center w-full md:w-auto gap-2 px-8 py-4 md:px-10 md:py-5 bg-primary text-on-primary rounded-full font-bold text-xs tracking-widest uppercase hover:bg-primary/90 transition-all shadow-xl shadow-primary/20 group">
                     1-on-1 Zoom Session
                     <span className="material-symbols-outlined group-hover:translate-x-1 transition-transform">arrow_forward</span>
                   </a>
@@ -245,8 +245,8 @@ export default function Home() {
                   <span className="font-label-caps text-secondary text-sm tracking-[0.2em] font-bold uppercase">Collective Vitality</span>
                   <span className="w-8 h-[1px] bg-secondary"></span>
                 </div>
-                <h2 className="font-display-lg text-5xl md:text-7xl mb-8 font-semibold tracking-tight text-on-surface leading-[1.1]">Group Yoga Classes</h2>
-                <p className="font-body-lg text-xl text-on-surface-variant/80 mb-10 leading-relaxed font-light">
+                <h2 className="font-display-lg text-4xl md:text-5xl lg:text-7xl mb-6 md:mb-8 font-semibold tracking-tight text-on-surface leading-[1.1]">Group Yoga Classes</h2>
+                <p className="font-body-lg text-lg md:text-xl text-on-surface-variant/80 mb-10 leading-relaxed font-light">
                   Practice in classes with other members of the community, live via zoom
                 </p>
 
@@ -258,7 +258,7 @@ export default function Home() {
                       "Small groups for real connection",
                       "Motivation and accountability"
                     ].map((pill, i) => (
-                      <span key={i} className="whitespace-nowrap px-6 py-3 rounded-full text-xs md:text-sm font-medium text-[#d37051] bg-[#fef7f5] border border-[#fae2da] shadow-sm">
+                      <span key={i} className="whitespace-nowrap px-4 py-2 md:px-6 md:py-3 rounded-full text-[11px] md:text-sm font-medium text-[#d37051] bg-[#fef7f5] border border-[#fae2da] shadow-sm">
                         {pill}
                       </span>
                     ))}
@@ -269,15 +269,15 @@ export default function Home() {
               <div className="max-w-4xl mx-auto px-margin-mobile md:px-margin-desktop mb-16">
                 <div className="relative rounded-[1.5rem] md:rounded-[2.5rem] overflow-hidden shadow-[0_30px_60px_-15px_rgba(0,0,0,0.3)] border border-on-surface/10 group/img">
                   <img src="/images/group-session.png" alt="Group Zoom Yoga Class — Community practicing together live" className="w-full object-cover transition-transform duration-1000 group-hover/img:scale-105" />
-                  <div className="absolute top-6 left-6 bg-white/90 backdrop-blur px-4 py-2 rounded-full shadow-sm border border-black/5 flex items-center gap-2">
+                  <div className="absolute top-4 left-4 md:top-6 md:left-6 bg-white/90 backdrop-blur px-3 py-1.5 md:px-4 md:py-2 rounded-full shadow-sm border border-black/5 flex items-center gap-2">
                     <div className="w-2 h-2 rounded-full bg-red-500 animate-pulse"></div>
-                    <span className="text-[11px] font-bold tracking-widest text-on-surface uppercase">Live via Zoom</span>
+                    <span className="text-[10px] md:text-[11px] font-bold tracking-widest text-on-surface uppercase">Live via Zoom</span>
                   </div>
                 </div>
               </div>
 
-              <div className="mt-12">
-                <a href="#pricing" className="inline-flex items-center gap-2 px-10 py-5 bg-primary text-on-primary rounded-full font-medium hover:bg-primary/90 transition-all shadow-xl shadow-primary/20 group">
+              <div className="mt-8 md:mt-12 px-margin-mobile md:px-0">
+                <a href="#pricing" className="inline-flex items-center justify-center w-full md:w-auto gap-2 px-8 py-4 md:px-10 md:py-5 bg-primary text-on-primary rounded-full font-bold text-xs tracking-widest uppercase hover:bg-primary/90 transition-all shadow-xl shadow-primary/20 group">
                   Group Zoom Session
                   <span className="material-symbols-outlined group-hover:translate-x-1 transition-transform">arrow_forward</span>
                 </a>
@@ -296,55 +296,55 @@ export default function Home() {
         <ScrollReveal delay={0.1}>
           <section className="py-section-gap bg-surface-container-low">
             <div className="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
-              <div className="text-center mb-16">
-                <h2 className="font-display-lg text-headline-md mb-4">Investment in Yourself</h2>
-                <p className="text-on-surface-variant">Choose a package that aligns with your commitment.</p>
+              <div className="text-center mb-12 md:mb-16">
+                <h2 className="font-display-lg text-3xl md:text-4xl lg:text-headline-md mb-4">Investment in Yourself</h2>
+                <p className="text-on-surface-variant text-sm md:text-base">Choose a package that aligns with your commitment.</p>
               </div>
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8 md:mt-12">
 
-                <div className="p-8 sm:p-10 bg-surface rounded-2xl flex flex-col h-full border border-on-surface/5 hover:border-primary/20 hover:shadow-xl hover:-translate-y-2 transition-all duration-500">
-                  <h3 className="font-display-lg text-headline-sm mb-2 text-primary">Single Session</h3>
+                <div className="p-8 md:p-10 bg-surface rounded-2xl flex flex-col h-full border border-on-surface/5 hover:border-primary/20 hover:shadow-xl hover:-translate-y-2 transition-all duration-500">
+                  <h3 className="font-display-lg text-2xl lg:text-headline-sm mb-2 text-primary">Single Session</h3>
                   <div className="mb-6">
-                    <span className="text-5xl font-bold text-on-surface">₹700</span>
-                    <span className="text-on-surface-variant ml-2 text-sm uppercase tracking-widest font-label-caps">/ session</span>
+                    <span className="text-4xl lg:text-5xl font-bold text-on-surface">₹700</span>
+                    <span className="text-on-surface-variant ml-2 text-xs md:text-sm uppercase tracking-widest font-label-caps">/ session</span>
                   </div>
                   <ul className="space-y-4 mb-10 flex-grow">
-                    <li className="flex items-center gap-3 text-on-surface-variant font-light"><span className="material-symbols-outlined text-primary text-[18px]" data-icon="done">done</span> 45-60 minutes</li>
-                    <li className="flex items-center gap-3 text-on-surface-variant font-light"><span className="material-symbols-outlined text-primary text-[18px]" data-icon="done">done</span> Introductory / Drop-in</li>
+                    <li className="flex items-center gap-3 text-on-surface-variant font-light text-sm md:text-base"><span className="shrink-0 material-symbols-outlined text-primary text-[18px]" data-icon="done">done</span> 45-60 minutes</li>
+                    <li className="flex items-center gap-3 text-on-surface-variant font-light text-sm md:text-base"><span className="shrink-0 material-symbols-outlined text-primary text-[18px]" data-icon="done">done</span> Introductory / Drop-in</li>
                   </ul>
                 </div>
 
-                <div className="p-8 sm:p-10 bg-surface rounded-2xl flex flex-col h-full border border-on-surface/5 hover:border-primary/20 hover:shadow-xl hover:-translate-y-2 transition-all duration-500">
-                  <h3 className="font-display-lg text-headline-sm mb-2 text-primary">Group Classes</h3>
+                <div className="p-8 md:p-10 bg-surface rounded-2xl flex flex-col h-full border border-on-surface/5 hover:border-primary/20 hover:shadow-xl hover:-translate-y-2 transition-all duration-500">
+                  <h3 className="font-display-lg text-2xl lg:text-headline-sm mb-2 text-primary">Group Classes</h3>
                   <div className="mb-6">
-                    <span className="text-5xl font-bold text-on-surface">₹3,000</span>
-                    <span className="text-on-surface-variant ml-2 text-sm uppercase tracking-widest font-label-caps">/ mo</span>
+                    <span className="text-4xl lg:text-5xl font-bold text-on-surface">₹3,000</span>
+                    <span className="text-on-surface-variant ml-2 text-xs md:text-sm uppercase tracking-widest font-label-caps">/ mo</span>
                   </div>
                   <ul className="space-y-4 mb-10 flex-grow">
-                    <li className="flex items-center gap-3 text-on-surface-variant font-light"><span className="material-symbols-outlined text-primary text-[18px]" data-icon="done">done</span> 20 Classes in a month</li>
-                    <li className="flex items-center gap-3 text-on-surface-variant font-light"><span className="material-symbols-outlined text-primary text-[18px]" data-icon="done">done</span> Monday to Friday</li>
+                    <li className="flex items-center gap-3 text-on-surface-variant font-light text-sm md:text-base"><span className="shrink-0 material-symbols-outlined text-primary text-[18px]" data-icon="done">done</span> 20 Classes in a month</li>
+                    <li className="flex items-center gap-3 text-on-surface-variant font-light text-sm md:text-base"><span className="shrink-0 material-symbols-outlined text-primary text-[18px]" data-icon="done">done</span> Monday to Friday</li>
                   </ul>
                 </div>
 
-                <div className="p-8 bg-primary text-on-primary rounded-xl flex flex-col h-full shadow-2xl md:scale-105 relative z-10 hover:scale-[1.02] md:hover:scale-[1.07] transition-transform duration-500">
+                <div className="p-8 md:p-10 bg-primary text-on-primary rounded-xl flex flex-col h-full shadow-2xl md:scale-105 relative z-10 hover:scale-[1.02] md:hover:scale-[1.07] transition-transform duration-500">
                   <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-secondary text-on-secondary px-4 py-1 rounded-full text-[10px] tracking-widest font-bold shadow-lg">MOST POPULAR</div>
-                  <h3 className="font-display-lg text-headline-sm mb-2">Personal Training</h3>
+                  <h3 className="font-display-lg text-2xl lg:text-headline-sm mb-2">Personal Training</h3>
                   <div className="mb-6">
-                    <span className="text-4xl font-bold">₹10,000</span>
-                    <span className="opacity-70">/mo</span>
+                    <span className="text-3xl lg:text-4xl font-bold">₹10,000</span>
+                    <span className="opacity-70 text-sm">/mo</span>
                   </div>
                   <ul className="space-y-4 mb-10 flex-grow">
-                    <li className="flex items-center gap-3 opacity-90"><span className="material-symbols-outlined text-sm" data-icon="done">done</span> 20 Classes in a month</li>
-                    <li className="flex items-center gap-3 opacity-90"><span className="material-symbols-outlined text-sm" data-icon="done">done</span> Monday to Friday</li>
-                    <li className="flex items-center gap-3 opacity-90"><span className="material-symbols-outlined text-sm" data-icon="done">done</span> Designed as per requirement</li>
-                    <li className="flex items-center gap-3 opacity-90"><span className="material-symbols-outlined text-sm" data-icon="done">done</span> 1-on-1 Dedicated Coaching</li>
+                    <li className="flex items-center gap-3 opacity-90 text-sm md:text-base"><span className="shrink-0 material-symbols-outlined text-sm" data-icon="done">done</span> 20 Classes in a month</li>
+                    <li className="flex items-center gap-3 opacity-90 text-sm md:text-base"><span className="shrink-0 material-symbols-outlined text-sm" data-icon="done">done</span> Monday to Friday</li>
+                    <li className="flex items-center gap-3 opacity-90 text-sm md:text-base"><span className="shrink-0 material-symbols-outlined text-sm" data-icon="done">done</span> Designed as per requirement</li>
+                    <li className="flex items-center gap-3 opacity-90 text-sm md:text-base"><span className="shrink-0 material-symbols-outlined text-sm" data-icon="done">done</span> 1-on-1 Dedicated Coaching</li>
                   </ul>
                 </div>
 
               </div>
 
-              <div className="mt-16 text-center">
-                <Link href="/investment-plans" className="inline-flex items-center gap-2 border border-primary text-primary px-8 py-4 rounded-full font-label-caps text-xs tracking-widest hover:bg-primary hover:text-white transition-all uppercase font-bold">
+              <div className="mt-12 md:mt-16 text-center">
+                <Link href="/investment-plans" className="inline-flex items-center justify-center w-full md:w-auto gap-2 border border-primary text-primary px-8 py-4 rounded-full font-label-caps text-xs tracking-widest hover:bg-primary hover:text-white transition-all uppercase font-bold">
                   Explore All Plans
                   <span className="material-symbols-outlined text-[18px]">arrow_forward</span>
                 </Link>
@@ -356,12 +356,12 @@ export default function Home() {
 
         <ScrollReveal delay={0.1}>
           <section className="py-section-gap overflow-hidden">
-            <div className="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop mb-12 flex justify-between items-end">
+            <div className="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop mb-8 md:mb-12 flex flex-col md:flex-row justify-between items-start md:items-end gap-4">
               <div>
-                <h2 className="font-display-lg text-headline-sm">Life at SriYogalaya</h2>
-                <p className="text-on-surface-variant">@SriYogalaya</p>
+                <h2 className="font-display-lg text-3xl md:text-headline-sm mb-1 md:mb-0">Life at SriYogalaya</h2>
+                <p className="text-on-surface-variant text-sm md:text-base">@SriYogalaya</p>
               </div>
-              <Link className="text-primary font-label-caps border-b border-primary hover:text-primary/80 transition-colors" href="/the-wellness-journal">Follow Our Journey</Link>
+              <Link className="text-primary font-label-caps border-b border-primary hover:text-primary/80 transition-colors text-xs md:text-sm tracking-widest uppercase font-bold" href="/the-wellness-journal">Follow Our Journey</Link>
             </div>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 px-4">
               <div className="relative aspect-square rounded-xl shadow-md overflow-hidden group">
@@ -398,9 +398,9 @@ export default function Home() {
               <div className="absolute top-0 right-0 w-96 h-96 bg-primary/20 rounded-full -mr-48 -mt-48 blur-3xl transition-transform duration-1000 group-hover:scale-150"></div>
               <div className="absolute bottom-0 left-0 w-64 h-64 bg-secondary/20 rounded-full -ml-32 -mb-32 blur-3xl transition-transform duration-1000 group-hover:scale-150"></div>
               <div className="relative z-10">
-                <h2 className="font-display-lg text-4xl md:text-5xl lg:text-6xl text-white mb-8 tracking-tight">Ready to rediscover your peace?</h2>
-                <p className="text-white/70 font-body-lg mb-12 max-w-xl mx-auto text-lg leading-relaxed">Join a community of mindful souls and start your transformation today with a personalized session.</p>
-                <Link className="bg-white text-black px-10 py-5 rounded-full font-label-caps text-xs tracking-[0.2em] hover:bg-white/90 hover:-translate-y-1 hover:shadow-[0_0_30px_rgba(255,255,255,0.2)] transition-all duration-300 inline-flex items-center justify-center uppercase font-bold" href="/connect-with-us">Connect With Us</Link>
+                <h2 className="font-display-lg text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-white mb-6 md:mb-8 tracking-tight">Ready to rediscover your peace?</h2>
+                <p className="text-white/70 font-body-lg mb-10 md:mb-12 max-w-xl mx-auto text-base md:text-lg leading-relaxed">Join a community of mindful souls and start your transformation today with a personalized session.</p>
+                <Link className="bg-white text-black w-full sm:w-auto px-8 py-4 md:px-10 md:py-5 rounded-full font-label-caps text-xs tracking-[0.2em] hover:bg-white/90 hover:-translate-y-1 hover:shadow-[0_0_30px_rgba(255,255,255,0.2)] transition-all duration-300 inline-flex items-center justify-center uppercase font-bold" href="/connect-with-us">Connect With Us</Link>
               </div>
             </div>
           </section>

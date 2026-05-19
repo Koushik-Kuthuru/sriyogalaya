@@ -14,7 +14,7 @@ export default function AboutYourGuide() {
             </p>
             <div className="mt-16 flex gap-16 border-t border-on-surface/10 pt-10">
               <div>
-                <p className="font-display-lg text-4xl text-primary font-bold">500+</p>
+                <p className="font-display-lg text-4xl text-primary font-bold">50+</p>
                 <p className="font-label-caps text-xs text-on-surface-variant uppercase tracking-widest mt-2">Students Guided</p>
               </div>
               <div>
