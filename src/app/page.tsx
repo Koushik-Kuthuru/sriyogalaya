@@ -9,7 +9,7 @@ export default function Home() {
         <section className="relative min-h-[75dvh] lg:min-h-0 lg:h-[90vh] flex items-center justify-center overflow-hidden pt-16 lg:pt-0">
           {/* Authentic Background image with Ken Burns */}
           <div className="absolute inset-0 z-0">
-            <img className="w-full h-full object-cover object-[65%_center] lg:object-center scale-105 animate-[kenburns_20s_ease-out_infinite_alternate]" alt="SriYogalaya authentic outdoor group yoga session" src="/images/IMG_4972.jpeg" />
+            <img className="w-full h-full object-cover object-[65%_center] lg:object-center scale-105 animate-[kenburns_20s_ease-out_infinite_alternate]" alt="SriYogalaya authentic outdoor group yoga session" src="/images/IMG_4971.jpeg" />
             <div className="absolute inset-0 bg-gradient-to-b lg:bg-gradient-to-r from-surface via-surface/90 to-surface/40 lg:via-surface/80 lg:to-surface/40"></div>
             <div className="absolute inset-0 bg-gradient-to-t from-surface lg:from-surface/40 via-surface/20 lg:via-transparent to-transparent"></div>
           </div>
@@ -148,7 +148,7 @@ export default function Home() {
                 <div className="w-full lg:w-1/2 relative group">
                   <div className="absolute -inset-4 bg-gradient-to-tr from-primary/20 to-secondary/20 rounded-[2.5rem] blur-xl opacity-50 group-hover:opacity-100 transition-opacity duration-700"></div>
                   <div className="relative rounded-[2rem] overflow-hidden shadow-2xl border border-on-surface/5">
-                    <img className="w-full aspect-[4/5] object-cover transition-transform duration-1000 group-hover:scale-105" alt="Sri Devi performing an advanced balance yoga pose, demonstrating strength and mindfulness." src="/images/98ce7491-15f1-45c5-a3dd-e04e3bfe156c.jpeg" />
+                    <img className="w-full aspect-[4/5] object-cover transition-transform duration-1000 group-hover:scale-105" alt="Sri Devi performing an advanced balance yoga pose, demonstrating strength and mindfulness." src="/images/sridevi.jpg" />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700 flex items-end p-8">
                       <p className="text-white font-label-caps tracking-widest text-sm">Practicing what we preach.</p>
                     </div>
@@ -225,10 +225,7 @@ export default function Home() {
                   <div className="absolute -inset-10 bg-gradient-to-br from-primary/10 to-transparent rounded-[3rem] blur-3xl opacity-50"></div>
                   <div className="relative rounded-[2.5rem] overflow-hidden shadow-2xl border border-on-surface/5 group">
                     <img src="/images/IMG_20250718_103924_Original.jpeg" alt="Private Yoga Session focus on precision and personalized alignment" className="w-full aspect-[4/3] object-cover transition-transform duration-1000 group-hover:scale-105" />
-                    <div className="absolute top-8 left-8 bg-white/90 backdrop-blur px-5 py-2.5 rounded-full shadow-lg border border-black/5 flex items-center gap-3">
-                      <div className="w-2.5 h-2.5 rounded-full bg-red-500 animate-pulse"></div>
-                      <span className="text-[11px] font-bold tracking-[0.2em] text-on-surface uppercase">Live via Zoom</span>
-                    </div>
+
                   </div>
                 </div>
               </div>
@@ -269,10 +266,7 @@ export default function Home() {
               <div className="max-w-4xl mx-auto px-margin-mobile md:px-margin-desktop mb-16">
                 <div className="relative rounded-[1.5rem] md:rounded-[2.5rem] overflow-hidden shadow-[0_30px_60px_-15px_rgba(0,0,0,0.3)] border border-on-surface/10 group/img">
                   <img src="/images/group-session.png" alt="Group Zoom Yoga Class — Community practicing together live" className="w-full object-cover transition-transform duration-1000 group-hover/img:scale-105" />
-                  <div className="absolute top-4 left-4 md:top-6 md:left-6 bg-white/90 backdrop-blur px-3 py-1.5 md:px-4 md:py-2 rounded-full shadow-sm border border-black/5 flex items-center gap-2">
-                    <div className="w-2 h-2 rounded-full bg-red-500 animate-pulse"></div>
-                    <span className="text-[10px] md:text-[11px] font-bold tracking-widest text-on-surface uppercase">Live via Zoom</span>
-                  </div>
+
                 </div>
               </div>
 
