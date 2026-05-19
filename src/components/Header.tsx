@@ -131,7 +131,7 @@ export function Header() {
               </Link>
               
               <div className="mt-8 flex justify-center gap-6 text-on-surface-variant/40">
-                <a href="https://instagram.com/sriyogalaya" target="_blank" className="hover:text-primary transition-colors"><span className="material-symbols-outlined">camera_enhance</span></a>
+                <a href="https://www.instagram.com/sri.yogini/" target="_blank" className="hover:text-primary transition-colors"><span className="material-symbols-outlined">camera_enhance</span></a>
                 <a href="mailto:contact@sriyogalaya.com" className="hover:text-primary transition-colors"><span className="material-symbols-outlined">mail</span></a>
               </div>
             </div>

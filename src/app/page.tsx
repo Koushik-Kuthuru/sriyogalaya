@@ -353,7 +353,7 @@ export default function Home() {
             <div className="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop mb-8 md:mb-12 flex flex-col md:flex-row justify-between items-start md:items-end gap-4">
               <div>
                 <h2 className="font-display-lg text-3xl md:text-headline-sm mb-1 md:mb-0">Life at SriYogalaya</h2>
-                <p className="text-on-surface-variant text-sm md:text-base">@SriYogalaya</p>
+                <p className="text-on-surface-variant text-sm md:text-base">@sri.yogini</p>
               </div>
               <Link className="text-primary font-label-caps border-b border-primary hover:text-primary/80 transition-colors text-xs md:text-sm tracking-widest uppercase font-bold" href="/the-wellness-journal">Follow Our Journey</Link>
             </div>
