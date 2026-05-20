@@ -61,15 +61,18 @@ export default function ConnectWithUs() {
           </div>
 
           <div className="bg-surface-container-low text-on-surface rounded-2xl md:rounded-[2rem] p-6 sm:p-10 border border-on-surface/5 shadow-sm">
-            <h3 className="font-display-lg text-2xl md:text-3xl mb-6 md:mb-8 font-medium">Sanctuary Hours</h3>
+            <h3 className="font-display-lg text-2xl md:text-3xl mb-6 md:mb-8 font-medium">Class Timings</h3>
             <ul className="space-y-4 font-body-md mb-10 text-on-surface-variant font-light">
               <li className="flex justify-between border-b border-on-surface/5 pb-4">
                 <span>Monday — Friday</span>
-                <span className="font-medium text-on-surface">06:00 — 21:00</span>
+                <div className="flex flex-col items-end gap-1 text-right">
+                  <span className="font-medium text-on-surface">06:30 AM — 11:00 AM IST</span>
+                  <span className="font-medium text-on-surface">04:00 PM — 07:00 PM IST</span>
+                </div>
               </li>
               <li className="flex justify-between border-b border-on-surface/5 pb-4">
                 <span>Saturday</span>
-                <span className="font-medium text-on-surface">08:00 — 18:00</span>
+                <span className="font-medium text-secondary">Closed</span>
               </li>
               <li className="flex justify-between pb-2">
                 <span>Sunday</span>
