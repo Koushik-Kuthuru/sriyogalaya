@@ -106,7 +106,7 @@ export default function ConnectWithUs() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 max-w-4xl mx-auto bg-surface-container-low p-6 sm:p-10 md:p-14 rounded-2xl md:rounded-[2rem] border border-on-surface/5 shadow-sm">
           <div className="space-y-4">
             <h4 className="font-display-lg text-xl text-primary font-medium">Do you offer beginner classes?</h4>
-            <p className="font-body-md text-on-surface-variant font-light leading-relaxed">Yes, our 'Foundations of Breath' series is designed specifically for those stepping onto the mat for the first time.</p>
+            <p className="font-body-md text-on-surface-variant font-light leading-relaxed">Yes, our &apos;Foundations of Breath&apos; series is designed specifically for those stepping onto the mat for the first time.</p>
           </div>
           <div className="space-y-4">
             <h4 className="font-display-lg text-xl text-primary font-medium">What should I bring?</h4>
