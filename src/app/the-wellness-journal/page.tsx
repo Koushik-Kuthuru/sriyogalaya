@@ -1,4 +1,16 @@
 import Link from "next/link";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "The Wellness Journal | SriYogalaya",
+  description: "Explore SriYogalaya's Wellness Journal for insights on yoga tips, meditation, wellness advice, and breathing techniques.",
+  alternates: { canonical: "https://sriyogalaya.com/the-wellness-journal" },
+  openGraph: {
+    title: "The Wellness Journal | SriYogalaya",
+    description: "Explore SriYogalaya's Wellness Journal for insights on yoga tips, meditation, wellness advice, and breathing techniques.",
+    url: "https://sriyogalaya.com/the-wellness-journal",
+  },
+};
 
 export default function TheWellnessJournal() {
   return (

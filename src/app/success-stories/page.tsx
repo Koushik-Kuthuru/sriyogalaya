@@ -1,4 +1,16 @@
 import Link from "next/link";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Success Stories & Testimonials | SriYogalaya",
+  description: "Discover real journeys of transformation and deep healing. Read testimonials from our global students who have found inner peace and resilience with SriYogalaya.",
+  alternates: { canonical: "https://sriyogalaya.com/success-stories" },
+  openGraph: {
+    title: "Success Stories & Testimonials | SriYogalaya",
+    description: "Discover real journeys of transformation and deep healing. Read testimonials from our global students who have found inner peace and resilience with SriYogalaya.",
+    url: "https://sriyogalaya.com/success-stories",
+  },
+};
 
 export default function SuccessStories() {
   return (

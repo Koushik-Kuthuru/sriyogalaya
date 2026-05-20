@@ -1,4 +1,17 @@
 import Link from "next/link";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "About Sri Devi | SriYogalaya",
+  description: "Meet Sri Devi, a certified international yoga instructor specializing in midlife transformation, Prenatal, Ashtanga, Hatha & Contemporary Yoga.",
+  alternates: { canonical: "https://sriyogalaya.com/about" },
+  openGraph: {
+    title: "About Sri Devi | SriYogalaya",
+    description: "Meet Sri Devi, a certified international yoga instructor specializing in midlife transformation, Prenatal, Ashtanga, Hatha & Contemporary Yoga.",
+    url: "https://sriyogalaya.com/about",
+    images: [{ url: "/images/IMG_0509.jpeg" }],
+  },
+};
 
 export default function AboutYourGuide() {
   return (

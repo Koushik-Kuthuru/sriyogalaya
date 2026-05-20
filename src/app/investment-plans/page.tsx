@@ -1,4 +1,16 @@
 import Link from "next/link";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Investment Plans & Pricing | SriYogalaya",
+  description: "Choose your path to inner peace with SriYogalaya. We offer personalized 1-on-1 yoga coaching, group sessions, prenatal yoga, and corporate wellness packages.",
+  alternates: { canonical: "https://sriyogalaya.com/investment-plans" },
+  openGraph: {
+    title: "Investment Plans & Pricing | SriYogalaya",
+    description: "Choose your path to inner peace with SriYogalaya. We offer personalized 1-on-1 yoga coaching, group sessions, prenatal yoga, and corporate wellness packages.",
+    url: "https://sriyogalaya.com/investment-plans",
+  },
+};
 
 export default function InvestmentPlans() {
   return (

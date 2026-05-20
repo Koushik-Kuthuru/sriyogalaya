@@ -1,5 +1,18 @@
 import Link from "next/link";
 import { ScrollReveal } from "@/components/ScrollReveal";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "SriYogalaya | Transform Your Mind & Body",
+  description: "Experience curated 1-on-1 yoga sessions via Zoom, tailored precisely to your anatomy, goals, and breath with Sri Devi.",
+  alternates: { canonical: "https://sriyogalaya.com" },
+  openGraph: {
+    title: "SriYogalaya | Transform Your Mind & Body",
+    description: "Experience curated 1-on-1 yoga sessions via Zoom, tailored precisely to your anatomy, goals, and breath with Sri Devi.",
+    url: "https://sriyogalaya.com",
+    images: [{ url: "/images/IMG_4972.jpeg" }],
+  },
+};
 
 export default function Home() {
   return (
@@ -29,6 +42,7 @@ export default function Home() {
 
                 {/* Headline */}
                 <h1 className="font-display-lg text-[2.75rem] leading-[1.05] sm:text-5xl md:text-6xl lg:text-[4rem] mt-6 mb-4 lg:mt-8 lg:mb-6 tracking-tight animate-in slide-in-from-bottom-8 duration-700 delay-400 fill-mode-both">
+                  <span className="block text-primary text-lg md:text-2xl mb-2 md:mb-4 font-medium tracking-widest uppercase opacity-80">Welcome to SriYogalaya</span>
                   Transform Your
                   <span className="block text-primary mt-1 lg:mt-0">Mind &amp; Body</span>
                 </h1>

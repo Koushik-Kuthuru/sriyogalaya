@@ -1,3 +1,16 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Connect With Us | SriYogalaya",
+  description: "Reach out to SriYogalaya to discuss your wellness goals and book personalized 1-on-1 or group yoga sessions with Sri Devi.",
+  alternates: { canonical: "https://sriyogalaya.com/connect-with-us" },
+  openGraph: {
+    title: "Connect With Us | SriYogalaya",
+    description: "Reach out to SriYogalaya to discuss your wellness goals and book personalized 1-on-1 or group yoga sessions with Sri Devi.",
+    url: "https://sriyogalaya.com/connect-with-us",
+  },
+};
+
 export default function ConnectWithUs() {
   return (
     <main className="pt-16 md:pt-32 pb-12 md:pb-section-gap max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">

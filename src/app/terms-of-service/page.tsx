@@ -1,5 +1,13 @@
 import Link from "next/link";
 
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Terms of Service | SriYogalaya",
+  description: "Terms of service and usage conditions for the SriYogalaya platform.",
+  alternates: { canonical: "https://sriyogalaya.com/terms-of-service" },
+};
+
 export default function TermsOfService() {
   return (
     <main className="animate-in fade-in duration-1000">

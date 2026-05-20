@@ -1,5 +1,35 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import type { Metadata, ResolvingMetadata } from "next";
+
+export async function generateMetadata(
+  { params }: { params: Promise<{ slug: string }> },
+  parent: ResolvingMetadata
+): Promise<Metadata> {
+  const { slug } = await params;
+  const post = BLOG_POSTS[slug];
+
+  if (!post) {
+    return { title: "Post Not Found | SriYogalaya" };
+  }
+
+  const description = post.content[0]?.substring(0, 150) + "...";
+
+  return {
+    title: `${post.title} | The Wellness Journal`,
+    description,
+    alternates: { canonical: `https://sriyogalaya.com/the-wellness-journal/blogs/${slug}` },
+    openGraph: {
+      title: post.title,
+      description,
+      url: `https://sriyogalaya.com/the-wellness-journal/blogs/${slug}`,
+      images: [{ url: post.image }],
+      type: "article",
+      publishedTime: post.date,
+      authors: ["https://sriyogalaya.com/about"],
+    },
+  };
+}
 
 const BLOG_POSTS: Record<
   string,

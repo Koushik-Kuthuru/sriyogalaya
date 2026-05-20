@@ -1,5 +1,13 @@
 import Link from "next/link";
 
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Privacy Policy | SriYogalaya",
+  description: "Privacy policy and data protection guidelines for SriYogalaya users.",
+  alternates: { canonical: "https://sriyogalaya.com/privacy-policy" },
+};
+
 export default function PrivacyPolicy() {
   return (
     <main className="animate-in fade-in duration-1000">
