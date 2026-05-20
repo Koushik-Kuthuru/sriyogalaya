@@ -148,7 +148,7 @@ export default function Home() {
                 <div className="w-full lg:w-1/2 relative group">
                   <div className="absolute -inset-4 bg-gradient-to-tr from-primary/20 to-secondary/20 rounded-[2.5rem] blur-xl opacity-50 group-hover:opacity-100 transition-opacity duration-700"></div>
                   <div className="relative rounded-[2rem] overflow-hidden shadow-2xl border border-on-surface/5">
-                    <img className="w-full aspect-[4/5] object-cover transition-transform duration-1000 group-hover:scale-105" alt="Sri Devi performing an advanced balance yoga pose, demonstrating strength and mindfulness." src="/images/sridevi.jpg" />
+                    <img className="w-full aspect-[4/5] object-cover transition-transform duration-1000 group-hover:scale-105" alt="Sri Devi performing an advanced balance yoga pose, demonstrating strength and mindfulness." src="/images/sridevi.jpeg" />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700 flex items-end p-8">
                       <p className="text-white font-label-caps tracking-widest text-sm">Practicing what we preach.</p>
                     </div>
@@ -163,7 +163,7 @@ export default function Home() {
                   <div className="relative p-6 md:p-8 rounded-2xl bg-surface shadow-sm border border-on-surface/5 mb-8">
                     <span className="material-symbols-outlined text-3xl md:text-4xl text-primary/20 absolute top-4 right-4" style={{ fontVariationSettings: "'FILL' 1" }}>format_quote</span>
                     <p className="font-display-lg text-xl md:text-2xl text-primary mb-2 leading-tight">
-                      "Started at 42. Thriving at 53."
+                      &quot;Started at 42. Thriving at 53.&quot;
                     </p>
                     <p className="text-on-surface-variant font-light text-sm md:text-base">
                       Redefining fitness after 40: Strength, Joy, and Mindfulness.
@@ -199,7 +199,7 @@ export default function Home() {
                   </div>
                   <h2 className="font-display-lg text-4xl md:text-5xl lg:text-7xl mb-6 md:mb-8 font-semibold tracking-tight text-on-surface leading-[1.1]">1-on-1 Yoga Sessions</h2>
                   <p className="font-body-lg text-base md:text-lg text-on-surface-variant mb-8 leading-relaxed font-light">
-                    Experience curated yoga sessions via Zoom, tailored precisely to your anatomy, goals, and breath. Our 1-on-1 sessions aren't about judgment—they're about focused support to help you move safely and celebrate every small win.
+                    Experience curated yoga sessions via Zoom, tailored precisely to your anatomy, goals, and breath. Our 1-on-1 sessions aren&apos;t about judgment—they&apos;re about focused support to help you move safely and celebrate every small win.
                   </p>
                   <div className="space-y-4 mb-10">
                     {[
