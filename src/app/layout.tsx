@@ -110,6 +110,8 @@ export default function RootLayout({
           href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"
           rel="stylesheet"
         />
+        <meta name="apple-mobile-web-app-title" content="sriyogalaya.com" />
+        <link rel="manifest" href="/manifest.json" />
         {/* JSON-LD: Organization Schema */}
         <script
           type="application/ld+json"
