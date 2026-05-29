@@ -189,7 +189,7 @@ export default function RootLayout({
                     itemOffered: {
                       "@type": "Service",
                       name: "1-on-1 Online Yoga Session",
-                      description: "Personalized private yoga session via Zoom tailored to your anatomy, goals, and breath. 45-60 minutes.",
+                      description: "Personalized private yoga session via Zoom tailored to your body, goals, and breath. 45-60 minutes.",
                     },
                     price: "700",
                     priceCurrency: "INR",
@@ -254,7 +254,7 @@ export default function RootLayout({
                   name: "What are the benefits of online yoga classes?",
                   acceptedAnswer: {
                     "@type": "Answer",
-                    text: "Online yoga classes offer personalized attention from certified instructors, flexible scheduling from the comfort of your home, real-time postural corrections via HD video, and cost-effective access to expert guidance. At SriYogalaya, Sri Devi provides 1-on-1 sessions tailored to your anatomy, goals, and breath.",
+                    text: "Online yoga classes offer personalized attention from certified instructors, flexible scheduling from the comfort of your home, real-time postural corrections via HD video, and cost-effective access to expert guidance. At SriYogalaya, Sri Devi provides 1-on-1 sessions tailored to your body, goals, and breath.",
                   },
                 },
                 {
@@ -286,7 +286,7 @@ export default function RootLayout({
                   name: "Is yoga good for stress relief and mental health?",
                   acceptedAnswer: {
                     "@type": "Answer",
-                    text: "Yes, yoga is scientifically proven to reduce cortisol levels, improve vagal tone, and enhance mental clarity. SriYogalaya's approach combines conscious breathing, restorative postures, and mindfulness techniques to help you find peace amidst the chaos of modern life. 98% of our members report significant stress reduction.",
+                    text: "Yes, yoga is scientifically proven to reduce cortisol levels, improve vagal tone, and enhance Mental Health. SriYogalaya's approach combines conscious breathing, restorative postures, and mindfulness techniques to help you find peace amidst the chaos of modern life. 98% of our members report significant stress reduction.",
                   },
                 },
               ],
@@ -318,14 +318,14 @@ export default function RootLayout({
           <div className="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop pt-14 pb-8 md:pt-16 md:pb-10">
             {/* Grid layout */}
             <div className="grid grid-cols-2 md:grid-cols-4 gap-x-6 gap-y-10 lg:gap-8">
-              
+
               {/* Brand */}
               <div className="col-span-2 md:col-span-4 lg:col-span-1 flex flex-col items-center text-center lg:items-start lg:text-left">
                 <Link href="/" className="inline-block font-display-lg text-2xl font-bold text-white tracking-tight hover:text-primary transition-colors">
                   SriYogalaya
                 </Link>
                 <p className="mt-3 text-white/40 text-[13px] max-w-[240px] leading-relaxed">
-                  Personalized yoga &amp; wellness experiences, online worldwide.
+                  Personalized yoga, wellness, Meditation experiences, online worldwide.
                 </p>
               </div>
 
@@ -367,7 +367,7 @@ export default function RootLayout({
               <div className="col-span-2 md:col-span-4 lg:col-span-1 flex flex-col items-center text-center lg:items-start lg:text-left mt-2 lg:mt-0 bg-white/[0.03] lg:bg-transparent p-6 rounded-2xl lg:p-0 border border-white/5 lg:border-none">
                 <h4 className="text-[10px] font-bold tracking-[0.25em] text-white/30 uppercase mb-3 lg:mb-4">Start Today</h4>
                 <p className="text-white/40 text-[13px] leading-relaxed mb-5 lg:mb-5">
-                  Your first step toward a calmer, stronger you.
+                  Your first step towards a calmer and stronger you.
                 </p>
                 <Link
                   href="/connect-with-us"

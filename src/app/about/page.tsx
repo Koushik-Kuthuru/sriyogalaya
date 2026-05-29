@@ -27,7 +27,7 @@ export default function AboutYourGuide() {
             </p>
             <div className="mt-8 md:mt-16 flex gap-8 md:gap-16 border-t border-on-surface/10 pt-6 md:pt-10">
               <div>
-                <p className="font-display-lg text-3xl md:text-4xl text-primary font-bold">50+</p>
+                <p className="font-display-lg text-3xl md:text-4xl text-primary font-bold">400+</p>
                 <p className="font-label-caps text-[10px] md:text-xs text-on-surface-variant uppercase tracking-widest mt-1 md:mt-2">Students Guided</p>
               </div>
               <div>
@@ -127,7 +127,7 @@ export default function AboutYourGuide() {
               <p className="text-xs text-secondary uppercase font-label-caps tracking-wider">Yoga Alliance Certified</p>
             </div>
             <div className="border-l-2 border-primary-container pl-4 py-1.5 md:pl-6 md:py-2">
-              <h5 className="font-bold text-primary mb-1 text-sm md:text-base">Yoga Anatomy Specialist</h5>
+              <h5 className="font-bold text-primary mb-1 text-sm md:text-base">Yoga body Specialist</h5>
               <p className="text-xs text-secondary uppercase font-label-caps tracking-wider">Oxford Wellness Institute</p>
             </div>
             <div className="border-l-2 border-primary-container pl-4 py-1.5 md:pl-6 md:py-2">

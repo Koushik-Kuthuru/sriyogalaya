@@ -4,11 +4,11 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "SriYogalaya | Transform Your Mind & Body",
-  description: "Experience curated 1-on-1 yoga sessions via Zoom, tailored precisely to your anatomy, goals, and breath with Sri Devi.",
+  description: "Experience curated 1-on-1 yoga sessions via Zoom, tailored precisely to your body, goals, and breath with Sri Devi.",
   alternates: { canonical: "https://sriyogalaya.com" },
   openGraph: {
     title: "SriYogalaya | Transform Your Mind & Body",
-    description: "Experience curated 1-on-1 yoga sessions via Zoom, tailored precisely to your anatomy, goals, and breath with Sri Devi.",
+    description: "Experience curated 1-on-1 yoga sessions via Zoom, tailored precisely to your body, goals, and breath with Sri Devi.",
     url: "https://sriyogalaya.com",
     images: [{ url: "/images/IMG_4972.jpeg" }],
   },
@@ -49,7 +49,7 @@ export default function Home() {
 
                 {/* Subheadline */}
                 <p className="text-[1.05rem] sm:text-lg md:text-xl text-on-surface-variant mb-8 lg:mb-10 leading-relaxed animate-in slide-in-from-bottom-8 duration-700 delay-600 fill-mode-both max-w-sm sm:max-w-md font-light">
-                  Experience curated 1-on-1 yoga sessions via Zoom, tailored precisely to your anatomy, goals, and breath.
+                  Experience curated 1-on-1 yoga sessions via Zoom, tailored precisely to your body, goals, and breath.
                 </p>
 
                 {/* CTA Buttons */}
@@ -73,7 +73,7 @@ export default function Home() {
                   </div>
                   <div className="flex items-center gap-2 text-on-surface-variant/80 bg-surface/50 backdrop-blur-md px-3 py-1.5 rounded-full border border-on-surface/5">
                     <span className="material-symbols-outlined text-primary text-[16px]" style={{ fontVariationSettings: "'FILL' 1" }}>groups</span>
-                    <span className="text-[10px] sm:text-xs font-medium tracking-wide">50+ Students</span>
+                    <span className="text-[10px] sm:text-xs font-medium tracking-wide">400+ Students</span>
                   </div>
                 </div>
               </div>
@@ -133,7 +133,7 @@ export default function Home() {
                   <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
                     <span className="material-symbols-outlined text-3xl text-primary" data-icon="self_improvement">self_improvement</span>
                   </div>
-                  <h3 className="font-display-lg text-2xl md:text-headline-sm mb-3 md:mb-4">Mental Clarity</h3>
+                  <h3 className="font-display-lg text-2xl md:text-headline-sm mb-3 md:mb-4">Mental Health</h3>
                   <p className="text-on-surface-variant font-light text-sm sm:text-base leading-relaxed">Reduce cortisol levels and find a peaceful center amidst the chaos of modern life.</p>
                 </div>
                 <div className="p-8 sm:p-12 bg-primary-container/20 rounded-2xl flex flex-col items-center text-center shadow-sm border border-primary/10 hover:shadow-xl hover:-translate-y-2 hover:bg-primary-container/30 transition-all duration-500 group">
@@ -184,7 +184,7 @@ export default function Home() {
                     </p>
                   </div>
                   <p className="font-body-lg text-base md:text-lg text-on-surface-variant mb-10 leading-relaxed font-light">
-                    I discovered the profound transformative power of yoga in my early 40s. Now in my 50s, I am a certified International Yoga and Fitness Instructor dedicated to helping others realize it is never too late to begin. My personalized classes are designed precisely for your unique requirements, focusing on empowering midlife transformations.
+                    I discovered the profound transformative power of yoga in my early 40s. Now in my 50s, I am a certified International Yoga and Fitness Instructor dedicated to helping others realize it is never too late to begin. My personalized classes are designed precisely for one's your unique requirements, focusing on empowering midlife transformations.
                   </p>
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 md:gap-8 mb-12 border-t border-on-surface/10 pt-8">
                     <div>
@@ -213,14 +213,14 @@ export default function Home() {
                   </div>
                   <h2 className="font-display-lg text-4xl md:text-5xl lg:text-7xl mb-6 md:mb-8 font-semibold tracking-tight text-on-surface leading-[1.1]">1-on-1 Yoga Sessions</h2>
                   <p className="font-body-lg text-base md:text-lg text-on-surface-variant mb-8 leading-relaxed font-light">
-                    Experience curated yoga sessions via Zoom, tailored precisely to your anatomy, goals, and breath. Our 1-on-1 sessions aren&apos;t about judgment—they&apos;re about focused support to help you move safely and celebrate every small win.
+                    Experience curated yoga sessions via Zoom, tailored precisely to your body, goals, and breath. Our 1-on-1 sessions aren&apos;t about judgment—they&apos;re about focused support to help you move safely and celebrate every small win.
                   </p>
                   <div className="space-y-4 mb-10">
                     {[
                       "Tailored to your specific body type & health goals",
                       "Real-time postural corrections & expert guidance",
                       "Flexible scheduling that fits your unique lifestyle",
-                      "A safe, private space to ask questions freely"
+                      "Personalize space to ask questions freely"
                     ].map((item, i) => (
                       <div key={i} className="flex items-center gap-4 text-on-surface-variant font-light text-sm md:text-base">
                         <span className="shrink-0 w-6 h-6 rounded-full bg-primary/10 flex items-center justify-center text-primary">
@@ -258,23 +258,8 @@ export default function Home() {
                 </div>
                 <h2 className="font-display-lg text-4xl md:text-5xl lg:text-7xl mb-6 md:mb-8 font-semibold tracking-tight text-on-surface leading-[1.1]">Group Yoga Classes</h2>
                 <p className="font-body-lg text-lg md:text-xl text-on-surface-variant/80 mb-10 leading-relaxed font-light">
-                  Practice in classes with other members of the community, live via zoom
+                  Best suited for large groups of students
                 </p>
-
-                <div className="overflow-x-auto pb-4 -mx-4 px-4 scrollbar-hide md:overflow-visible md:pb-0 md:mx-0 md:px-0">
-                  <div className="flex flex-nowrap md:flex-wrap justify-start md:justify-center gap-3">
-                    {[
-                      "Classes for every health goal",
-                      "70+ live classes every day",
-                      "Small groups for real connection",
-                      "Motivation and accountability"
-                    ].map((pill, i) => (
-                      <span key={i} className="whitespace-nowrap px-4 py-2 md:px-6 md:py-3 rounded-full text-[11px] md:text-sm font-medium text-[#d37051] bg-[#fef7f5] border border-[#fae2da] shadow-sm">
-                        {pill}
-                      </span>
-                    ))}
-                  </div>
-                </div>
               </div>
 
               <div className="max-w-4xl mx-auto px-margin-mobile md:px-margin-desktop mb-16">
@@ -290,7 +275,7 @@ export default function Home() {
                   <span className="material-symbols-outlined group-hover:translate-x-1 transition-transform">arrow_forward</span>
                 </a>
                 <p className="mt-6 text-sm text-on-surface-variant font-light">
-                  See all of our <span className="font-semibold text-primary underline decoration-primary/30 underline-offset-4 cursor-pointer">70+ daily group classes</span>
+                  See all of our <span className="font-semibold text-primary underline decoration-primary/30 underline-offset-4 cursor-pointer">7+ daily group classes</span>
                 </p>
               </div>
             </div>
@@ -305,7 +290,7 @@ export default function Home() {
           <section className="py-section-gap bg-surface-container-low">
             <div className="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
               <div className="text-center mb-12 md:mb-16">
-                <h2 className="font-display-lg text-3xl md:text-4xl lg:text-headline-md mb-4">Investment in Yourself</h2>
+                <h2 className="font-display-lg text-3xl md:text-4xl lg:text-headline-md mb-4">Invest in Yourself</h2>
                 <p className="text-on-surface-variant text-sm md:text-base">Choose a package that aligns with your commitment.</p>
               </div>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8 md:mt-12">
@@ -318,7 +303,7 @@ export default function Home() {
                   </div>
                   <ul className="space-y-4 mb-10 flex-grow">
                     <li className="flex items-center gap-3 text-on-surface-variant font-light text-sm md:text-base"><span className="shrink-0 material-symbols-outlined text-primary text-[18px]" data-icon="done">done</span> 45-60 minutes</li>
-                    <li className="flex items-center gap-3 text-on-surface-variant font-light text-sm md:text-base"><span className="shrink-0 material-symbols-outlined text-primary text-[18px]" data-icon="done">done</span> Introductory / Drop-in</li>
+                    <li className="flex items-center gap-3 text-on-surface-variant font-light text-sm md:text-base"><span className="shrink-0 material-symbols-outlined text-primary text-[18px]" data-icon="done">done</span> One time / Drop-in</li>
                   </ul>
                 </div>
 

@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 export default function ConnectWithUs() {
   return (
     <main className="pt-16 md:pt-32 pb-12 md:pb-section-gap max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
-      
+
       {/* Header */}
       <div className="text-center mb-8 md:mb-16">
         <span className="font-label-caps text-secondary text-[10px] md:text-[11px] font-bold tracking-[0.2em] md:tracking-[0.3em] uppercase mb-4 md:mb-6 block">Get In Touch</span>
@@ -22,7 +22,7 @@ export default function ConnectWithUs() {
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16">
-        
+
         {/* Contact Form */}
         <div className="lg:col-span-7 bg-surface-container-low rounded-2xl md:rounded-[2rem] p-6 sm:p-10 md:p-14 shadow-2xl shadow-primary/5 border border-on-surface/5 hover:border-primary/20 transition-all duration-500">
           <h2 className="font-display-lg text-2xl md:text-3xl mb-6 md:mb-8 font-medium">Send a Whisper</h2>
@@ -30,11 +30,11 @@ export default function ConnectWithUs() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <div className="flex flex-col gap-3">
                 <label className="font-label-caps text-xs tracking-widest text-on-surface-variant font-bold uppercase ml-1">Your Name</label>
-                <input className="bg-white border border-outline/10 focus:ring-2 focus:ring-primary/20 focus:border-primary rounded-xl py-4 px-6 text-body-md transition-all shadow-sm" placeholder="Aditi Sharma" type="text"/>
+                <input className="bg-white border border-outline/10 focus:ring-2 focus:ring-primary/20 focus:border-primary rounded-xl py-4 px-6 text-body-md transition-all shadow-sm" placeholder="Aditi Sharma" type="text" />
               </div>
               <div className="flex flex-col gap-3">
                 <label className="font-label-caps text-xs tracking-widest text-on-surface-variant font-bold uppercase ml-1">WhatsApp Number</label>
-                <input className="bg-white border border-outline/10 focus:ring-2 focus:ring-primary/20 focus:border-primary rounded-xl py-4 px-6 text-body-md transition-all shadow-sm" placeholder="+91 9491803261" type="tel"/>
+                <input className="bg-white border border-outline/10 focus:ring-2 focus:ring-primary/20 focus:border-primary rounded-xl py-4 px-6 text-body-md transition-all shadow-sm" placeholder="+91 9491803261" type="tel" />
               </div>
             </div>
             <div className="flex flex-col gap-3">
@@ -57,7 +57,7 @@ export default function ConnectWithUs() {
 
         {/* Info Panel */}
         <div className="lg:col-span-5 flex flex-col gap-8">
-          
+
           <div className="bg-[#1a1a1a] text-white rounded-2xl md:rounded-[2rem] p-6 sm:p-10 flex flex-col justify-between h-full relative overflow-hidden shadow-2xl group border border-white/5">
             <div className="absolute top-0 right-0 w-64 h-64 bg-secondary/20 rounded-full -mr-32 -mt-32 blur-3xl transition-transform duration-1000 group-hover:scale-150"></div>
             <div className="relative z-10">
@@ -85,11 +85,11 @@ export default function ConnectWithUs() {
               </li>
               <li className="flex justify-between border-b border-on-surface/5 pb-4">
                 <span>Saturday</span>
-                <span className="font-medium text-secondary">Closed</span>
+                <span className="font-medium text-secondary">06:30 AM — 11:00 AM IST</span>
               </li>
               <li className="flex justify-between pb-2">
                 <span>Sunday</span>
-                <span className="font-medium text-secondary">Closed for Rest</span>
+                <span className="font-medium text-secondary">Special Sessions</span>
               </li>
             </ul>
             <div className="flex items-center gap-4">
@@ -149,16 +149,16 @@ export default function ConnectWithUs() {
         </div>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
           <div className="aspect-square bg-surface-variant rounded-xl md:rounded-2xl overflow-hidden group shadow-lg shadow-primary/5">
-            <img alt="Yoga Practice" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-[10s]" title="Sri Devi guiding adjustments in a serene shala environment." src="/images/IMG_0542.jpeg"/>
+            <img alt="Yoga Practice" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-[10s]" title="Sri Devi guiding adjustments in a serene shala environment." src="/images/IMG_0542.jpeg" />
           </div>
           <div className="aspect-square bg-surface-variant rounded-xl md:rounded-2xl overflow-hidden group shadow-lg shadow-primary/5">
-            <img alt="Morning Meditation" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-[10s]" title="Sri Devi practicing outdoor breathing and alignment." src="/images/IMG_1181.jpeg"/>
+            <img alt="Morning Meditation" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-[10s]" title="Sri Devi practicing outdoor breathing and alignment." src="/images/IMG_1181.jpeg" />
           </div>
           <div className="aspect-square bg-surface-variant rounded-xl md:rounded-2xl overflow-hidden group shadow-lg shadow-primary/5">
-            <img alt="Wellness Detail" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-[10s]" title="Authentic outdoor group session in a high-end nature setting." src="/images/IMG_20250709_103014_Original.jpeg"/>
+            <img alt="Wellness Detail" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-[10s]" title="Authentic outdoor group session in a high-end nature setting." src="/images/IMG_20250709_103014_Original.jpeg" />
           </div>
           <div className="aspect-square bg-surface-variant rounded-xl md:rounded-2xl overflow-hidden group shadow-lg shadow-primary/5">
-            <img alt="Zen Garden" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-[10s]" title="Sri Devi holding an award presented by ICMAI." src="/images/1b2b7f45-c147-44d2-bae3-9b110a0c7460.jpeg"/>
+            <img alt="Zen Garden" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-[10s]" title="Sri Devi holding an award presented by ICMAI." src="/images/1b2b7f45-c147-44d2-bae3-9b110a0c7460.jpeg" />
           </div>
         </div>
       </section>

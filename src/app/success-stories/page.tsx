@@ -29,7 +29,7 @@ export default function SuccessStories() {
             <span className="font-label-caps text-white/50 text-[9px] md:text-[11px] tracking-[0.15em] md:tracking-[0.2em] uppercase">Stress Reduction</span>
           </div>
           <div className="flex flex-col">
-            <span className="font-display-lg text-3xl sm:text-4xl md:text-6xl font-bold mb-2 md:mb-4">50+</span>
+            <span className="font-display-lg text-3xl sm:text-4xl md:text-6xl font-bold mb-2 md:mb-4">400+</span>
             <span className="font-label-caps text-white/50 text-[9px] md:text-[11px] tracking-[0.15em] md:tracking-[0.2em] uppercase">Global Students</span>
           </div>
           <div className="flex flex-col">
