@@ -96,7 +96,7 @@ export default function ConnectWithUs() {
               <a className="h-12 w-12 flex items-center justify-center rounded-full bg-primary/5 hover:bg-primary/10 text-primary transition-all hover:scale-110" href="https://sriyogalaya.com">
                 <span className="material-symbols-outlined text-[20px]">public</span>
               </a>
-              <a className="h-12 w-12 flex items-center justify-center rounded-full bg-primary/5 hover:bg-primary/10 text-primary transition-all hover:scale-110" href="https://www.instagram.com/sri.yogini/" aria-label="Instagram">
+              <a className="h-12 w-12 flex items-center justify-center rounded-full bg-primary/5 hover:bg-primary/10 text-primary transition-all hover:scale-110" href="https://www.instagram.com/sriyogalaya/" aria-label="Instagram">
                 <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="h-5 w-5">
                   <rect x="3" y="3" width="18" height="18" rx="5" ry="5"></rect>
                   <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
@@ -140,9 +140,9 @@ export default function ConnectWithUs() {
         <div className="flex flex-col md:flex-row justify-between md:items-end mb-8 md:mb-10 gap-4 md:gap-6">
           <div>
             <h2 className="font-display-lg text-2xl md:text-4xl mb-2 font-medium">Visual Stillness</h2>
-            <p className="font-body-md text-sm md:text-base text-on-surface-variant font-light">Follow our daily practice @sri.yogini</p>
+            <p className="font-body-md text-sm md:text-base text-on-surface-variant font-light">Follow our daily practice @sriyogalaya</p>
           </div>
-          <a className="font-label-caps text-[10px] md:text-[11px] font-bold text-secondary uppercase tracking-[0.2em] hover:text-primary transition-colors flex items-center" href="https://www.instagram.com/sri.yogini/">
+          <a className="font-label-caps text-[10px] md:text-[11px] font-bold text-secondary uppercase tracking-[0.2em] hover:text-primary transition-colors flex items-center" href="https://www.instagram.com/sriyogalaya/">
             View Gallery
             <span className="material-symbols-outlined text-[16px] ml-2">arrow_forward</span>
           </a>

@@ -142,16 +142,16 @@ export default function AboutYourGuide() {
         </div>
       </section>
 
-      <section className="py-12 md:py-section-gap overflow-hidden">
-        <div className="flex overflow-x-auto gap-4 px-margin-mobile md:px-0 h-[280px] md:h-[400px] scrollbar-hide -mx-margin-mobile md:mx-0">
-          <div className="flex-shrink-0 w-[75vw] md:w-auto md:flex-1 rounded-2xl overflow-hidden shadow-lg transform hover:-translate-y-2 transition-transform duration-500">
-            <img className="w-full h-full object-cover" title="Sri Devi guiding a gentle posture adjustment in a sunny, warm yoga shala." src="/images/IMG_0542.jpeg" alt="Sri Devi Yoga Practice" />
+      <section className="py-12 md:py-section-gap overflow-hidden md:overflow-visible">
+        <div className="flex overflow-x-auto overflow-y-hidden md:overflow-y-visible gap-4 px-margin-mobile md:px-0 h-[280px] md:h-[432px] scrollbar-hide -mx-margin-mobile md:mx-0 items-stretch md:items-start">
+          <div className="flex-shrink-0 w-[75vw] md:w-auto md:flex-1 h-full md:h-[400px] rounded-2xl overflow-hidden shadow-lg">
+            <img className="block w-full h-full object-cover object-center" title="Sri Devi guiding a gentle posture adjustment in a sunny, warm yoga shala." src="/images/IMG_0542.jpeg" alt="Sri Devi Yoga Practice" />
           </div>
-          <div className="flex-shrink-0 w-[80vw] md:w-auto md:flex-[1.5] rounded-2xl overflow-hidden shadow-lg transform translate-y-0 md:translate-y-8 hover:translate-y-0 md:hover:translate-y-6 transition-transform duration-500">
-            <img className="w-full h-full object-cover" title="Sri Devi practicing high-focus breathing control outdoor." src="/images/IMG_1181.jpeg" alt="Sri Devi Pranayama Practice" />
+          <div className="flex-shrink-0 w-[80vw] md:w-auto md:flex-[1.5] h-full md:h-[400px] rounded-2xl overflow-hidden shadow-lg md:translate-y-8">
+            <img className="block w-full h-full object-cover object-center" title="Sri Devi practicing high-focus breathing control outdoor." src="/images/IMG_1181.jpeg" alt="Sri Devi Pranayama Practice" />
           </div>
-          <div className="flex-shrink-0 w-[75vw] md:w-auto md:flex-1 rounded-2xl overflow-hidden shadow-lg transform hover:-translate-y-2 transition-transform duration-500">
-            <img className="w-full h-full object-cover" title="A peaceful outdoor yoga session in nature." src="/images/IMG_20250709_103014_Original.jpeg" alt="SriYogalaya Outdoor Session" />
+          <div className="flex-shrink-0 w-[75vw] md:w-auto md:flex-1 h-full md:h-[400px] rounded-2xl overflow-hidden shadow-lg">
+            <img className="block w-full h-full object-cover object-center" title="A peaceful outdoor yoga session in nature." src="/images/IMG_20250709_103014_Original.jpeg" alt="SriYogalaya Outdoor Session" />
           </div>
         </div>
       </section>
@@ -163,23 +163,27 @@ export default function AboutYourGuide() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-12">
           <div className="bg-surface-container-low p-6 sm:p-10 md:p-12 rounded-2xl md:rounded-[2.5rem] border border-on-surface/5 shadow-sm relative">
             <span className="material-symbols-outlined text-secondary/20 text-6xl md:text-8xl absolute top-4 right-6 md:top-6 md:right-8">format_quote</span>
-            <p className="font-body-lg text-sm md:text-lg text-on-surface mb-6 md:mb-8 relative z-10 font-light leading-relaxed">"Training with Sri Devi online feels more personal than any studio class I've attended. Her attention to detail and her ability to read my energy through a screen is uncanny. My practice has reached heights I never thought possible."</p>
+            <p className="font-body-lg text-sm md:text-lg text-on-surface mb-6 md:mb-8 relative z-10 font-light leading-relaxed">"I really appreciate Sridevi's gentle and supportive yoga teaching style. She gives clear guidance, offers options, and never makes the practice feel pushy or intimidating, which is very different from some of my past experiences in other classes. Because of that, I feel comfortable listening to my body, progressing at my own pace, and truly started to enjoy yoga again. Her calm communication, encouragement, and non-judgmental approach create a safe and welcoming space to practice. I always leave her yoga sessions feeling relaxed, respected, and re-energized."</p>
             <div className="flex items-center gap-4">
-              <div className="w-10 h-10 md:w-12 md:h-12 rounded-full bg-primary-container"></div>
+              <div className="w-10 h-10 md:w-12 md:h-12 rounded-full bg-primary-container flex items-center justify-center">
+                <span className="material-symbols-outlined text-primary text-[20px] md:text-[24px]" style={{ fontVariationSettings: "'FILL' 1" }}>person</span>
+              </div>
               <div>
-                <p className="font-bold text-primary text-sm md:text-base">Sarah J.</p>
-                <p className="text-xs text-on-surface-variant uppercase tracking-widest">Executive &amp; Mother</p>
+                <p className="font-bold text-primary text-sm md:text-base">Srini Manthena</p>
+                <p className="text-xs text-on-surface-variant uppercase tracking-widest">USA</p>
               </div>
             </div>
           </div>
           <div className="bg-surface-container-low p-6 sm:p-10 md:p-12 rounded-2xl md:rounded-[2.5rem] border border-on-surface/5 shadow-sm relative">
             <span className="material-symbols-outlined text-secondary/20 text-6xl md:text-8xl absolute top-4 right-6 md:top-6 md:right-8">format_quote</span>
-            <p className="font-body-lg text-sm md:text-lg text-on-surface mb-6 md:mb-8 relative z-10 font-light leading-relaxed">"Her methodology is grounded in science yet honors the spirit of yoga perfectly. As someone with old sporting injuries, I felt completely safe and supported. She is a true master of her craft."</p>
+            <p className="font-body-lg text-sm md:text-lg text-on-surface mb-6 md:mb-8 relative z-10 font-light leading-relaxed">"As I reflect on the past 2.5 years of learning under your wing, my heart is filled with the deepest gratitude. Your teachings extend far beyond the physical mastery of Asanas. Thank you for the incredible dedication and boundless wisdom you share so generously. Your presence in my life has been an anchor, helping me find strength during challenges and stillness amidst chaos. You have not only taught me Yoga, but you have inspired me by the way you live your life with such grace and poise. I am truly blessed to have you as my Guru 🙏🏻"</p>
             <div className="flex items-center gap-4">
-              <div className="w-10 h-10 md:w-12 md:h-12 rounded-full bg-secondary-container"></div>
+              <div className="w-10 h-10 md:w-12 md:h-12 rounded-full bg-secondary-container flex items-center justify-center">
+                <span className="material-symbols-outlined text-secondary text-[20px] md:text-[24px]" style={{ fontVariationSettings: "'FILL' 1" }}>person</span>
+              </div>
               <div>
-                <p className="font-bold text-primary text-sm md:text-base">David M.</p>
-                <p className="text-xs text-on-surface-variant uppercase tracking-widest">Architect</p>
+                <p className="font-bold text-primary text-sm md:text-base">Swapna Kulkarni</p>
+                <p className="text-xs text-on-surface-variant uppercase tracking-widest">2.5+ Years Practitioner</p>
               </div>
             </div>
           </div>

@@ -352,35 +352,31 @@ export default function Home() {
             <div className="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop mb-8 md:mb-12 flex flex-col md:flex-row justify-between items-start md:items-end gap-4">
               <div>
                 <h2 className="font-display-lg text-3xl md:text-headline-sm mb-1 md:mb-0">Life at SriYogalaya</h2>
-                <p className="text-on-surface-variant text-sm md:text-base">@sri.yogini</p>
+                <p className="text-on-surface-variant text-sm md:text-base">@sriyogalaya</p>
               </div>
-              <Link className="text-primary font-label-caps border-b border-primary hover:text-primary/80 transition-colors text-xs md:text-sm tracking-widest uppercase font-bold" href="/the-wellness-journal">Follow Our Journey</Link>
+              <a className="text-primary font-label-caps border-b border-primary hover:text-primary/80 transition-colors text-xs md:text-sm tracking-widest uppercase font-bold" href="https://www.instagram.com/sriyogalaya/" target="_blank" rel="noopener noreferrer">Follow Our Journey</a>
             </div>
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 px-4">
-              <div className="relative aspect-square rounded-xl shadow-md overflow-hidden group">
-                <img className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Close up of a yoga practitioner's hands in mudra pose, warm sunrise light filtering through, SriYogalaya aesthetic." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAFEyZaf0uk91EJjqf9Md-LlGLQdXtzzQURsFLE7LXWOjFTkZV-8t0oJE4BfgvEEDI6oInJVBVZewEJEdw_ydfFTmRX1M0sp8nwl8WuTrT1iyCA4YvZLSgX8oA6yvwViSRWHZD_uuNZyYr3eKTkXv3ExOdaN3ucD7PdsNKd15dPqGNspCTE3Tye-Lp54P8xV77vXyWcoFXFZQZSfkQBky3FB1XT45sFR2gh_9laKnCRL0E8X9R4c4YV6Bt5qlBbGB8uWw5XD8tpyg" />
-                <div className="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-                  <span className="material-symbols-outlined text-white text-3xl">camera</span>
+            
+            <div className="flex overflow-x-auto pb-8 space-x-4 md:space-x-6 snap-x snap-mandatory no-scrollbar px-4 sm:px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto">
+              {[
+                "https://www.instagram.com/p/DS_rBMWEj_Q/embed",
+                "https://www.instagram.com/reel/DVIZJkHkt9J/embed",
+                "https://www.instagram.com/p/DTCRWwqkmfc/embed",
+                "https://www.instagram.com/p/DLzwUDeSj8I/embed",
+                "https://www.instagram.com/p/C94CH-TyKUf/embed"
+              ].map((src, i) => (
+                <div key={i} className="snap-center snap-always shrink-0 w-[85vw] sm:w-[320px] md:w-[350px]">
+                  <iframe 
+                    src={src} 
+                    width="100%" 
+                    height="460" 
+                    frameBorder="0" 
+                    scrolling="no" 
+                    allowtransparency="true" 
+                    className="rounded-2xl border border-on-surface/10 shadow-lg bg-white overflow-hidden">
+                  </iframe>
                 </div>
-              </div>
-              <div className="relative aspect-square rounded-xl shadow-md overflow-hidden group">
-                <img className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="A beautiful overhead shot of a yoga mat and a ceramic bowl of incense on a light wood floor." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAEIVT5L_D97F4MHoj1Fsu2O6JIiYVXOGzjdGr01-u2r861vYwQvp3bGhv0Tox61pjK2ukuA2-vPa_nZnwWuPgptU73GkV_498Jq1fkKHkai-HjFdga8YcW8MDE755Gmsmi1H2nQKEkq69ne40sczAYLXCeNd06zWjzhPqG5Z4syZlFBkzPPLeAMz223MqfVa-UNiCwcGipHRCvzdzGQ2WjMbdipcAViVDk0JkKh-bzNAEvgOuagSYunJLyk5s1XQF2grE7MZLEEg" />
-                <div className="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-                  <span className="material-symbols-outlined text-white text-3xl">camera</span>
-                </div>
-              </div>
-              <div className="relative aspect-square rounded-xl shadow-md overflow-hidden group">
-                <img className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="A minimalist meditation space with a single green plant and a warm beige cushion against a cream wall." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBR6qwkukPlbODf-zcuGtcpGFhAdHaJwdX64S19srfmqsEEwCrNMT61fdGR36bp9740ujReX_VE4ol20pZvFOlXCke-uY2ZwnG8wurvMTF1sKughOvlmbb4GSqx54evzmyfERato5duf5YLfadya3v8Z3sgy2sGS_7nLzJ1zMWbNWhNiBATYmiY1xhERGIsVTSnSZYgPsp1waOPb78IIf7xQ58CIDEvS7bmOPoa7gMBJt82NCFpXny1csEJZ8m2shs50MJANPVrRg" />
-                <div className="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-                  <span className="material-symbols-outlined text-white text-3xl">camera</span>
-                </div>
-              </div>
-              <div className="relative aspect-square rounded-xl shadow-md overflow-hidden group">
-                <img className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="A serene landscape of misty mountains during sunrise, representing the peace found in yoga practice." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCopdQQvMYvHTV8ql5iBj5s7EDFdNoKeFdfGC2RDVzDbbcApJtCFvIKTAEEOLU6zRcESawaGudVtbgeKDTuurRtIha_IqnUACFCO9KTX3p5nomnZKUzWcbxbUmxkQOFwxoLRxoOziMUqVMRMJT5L0t_c5w5_rckz09JnCzlebV2_6A600nkervmP4w4K3D6LCa4ocDmNN-fhrRmJJHiJ9r6wJpN3nJlAGCkAkiR-6tzWKSV-_1_qnH0N891hrw7STijRDEEjlsi5A" />
-                <div className="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-                  <span className="material-symbols-outlined text-white text-3xl">camera</span>
-                </div>
-              </div>
+              ))}
             </div>
           </section>
         </ScrollReveal>

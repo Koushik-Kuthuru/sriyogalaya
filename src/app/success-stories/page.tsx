@@ -142,46 +142,108 @@ export default function SuccessStories() {
 
       <section className="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop mb-section-gap">
         <h2 className="font-headline-md text-2xl md:text-headline-md text-center mb-10 md:mb-16">Loved by our Community</h2>
-        <div className="flex overflow-x-auto pb-6 md:pb-8 space-x-4 md:space-x-gutter no-scrollbar snap-x">
+        <div className="columns-1 md:columns-2 lg:columns-3 gap-4 md:gap-6 space-y-4 md:space-y-6">
 
-          <div className="min-w-[260px] md:min-w-[400px] snap-center bg-white p-5 md:p-8 rounded-2xl shadow-xl shadow-primary/5 border border-outline-variant/30 hover:-translate-y-1 transition-transform duration-300">
-            <p className="font-body-md italic text-on-surface-variant mb-4 md:mb-6 leading-relaxed text-sm md:text-base">"An oasis of calm in a chaotic world. The teachers are incredibly knowledgeable and the community is so welcoming. Highly recommend."</p>
+          <div className="break-inside-avoid bg-white p-5 md:p-8 rounded-2xl shadow-xl shadow-primary/5 border border-outline-variant/30 hover:-translate-y-1 transition-transform duration-300">
+            <div className="flex text-secondary mb-3 md:mb-4">
+              <span className="material-symbols-outlined text-[18px] md:text-[24px]" style={{ fontVariationSettings: "'FILL' 1" }}>star</span>
+              <span className="material-symbols-outlined text-[18px] md:text-[24px]" style={{ fontVariationSettings: "'FILL' 1" }}>star</span>
+              <span className="material-symbols-outlined text-[18px] md:text-[24px]" style={{ fontVariationSettings: "'FILL' 1" }}>star</span>
+              <span className="material-symbols-outlined text-[18px] md:text-[24px]" style={{ fontVariationSettings: "'FILL' 1" }}>star</span>
+              <span className="material-symbols-outlined text-[18px] md:text-[24px]" style={{ fontVariationSettings: "'FILL' 1" }}>star</span>
+            </div>
+            <p className="font-body-md italic text-on-surface-variant mb-4 md:mb-6 leading-relaxed text-sm md:text-base">&quot;I started my journey of yoga at the age of 59. Since then I started observing my body. I understood that doing work at home doesn&apos;t help the whole body. Since the day I started my journey of yoga I observed many changes. I became active physically and mentally. I started my journey with many health problems. Maximum I got relieved. I feel sorry for not doing yoga at an early stage. Thank you teacher for this beautiful journey of yoga.&quot;</p>
             <div className="flex items-center gap-3 md:gap-4">
-              <div className="w-10 h-10 md:w-12 md:h-12 rounded-full overflow-hidden bg-surface-container">
-                <img className="w-full h-full object-cover" alt="Julia Chen" src="https://placehold.co/100x100/f5f5f5/primary?text=JC" />
+              <div className="w-10 h-10 md:w-12 md:h-12 rounded-full overflow-hidden bg-primary/10 flex items-center justify-center">
+                <span className="material-symbols-outlined text-primary text-[20px] md:text-[24px]" style={{ fontVariationSettings: "'FILL' 1" }}>person</span>
               </div>
               <div>
-                <p className="font-label-caps font-bold text-on-surface text-xs md:text-sm">Julia Chen</p>
-                <p className="text-[9px] md:text-[10px] text-primary font-bold tracking-widest uppercase">Yoga Practitioner</p>
+                <p className="font-label-caps font-bold text-on-surface text-xs md:text-sm">SriYogalaya Student</p>
+                <p className="text-[9px] md:text-[10px] text-primary font-bold tracking-widest uppercase">Started at 59</p>
               </div>
             </div>
           </div>
 
-          <div className="min-w-[260px] md:min-w-[400px] snap-center bg-white p-5 md:p-8 rounded-2xl shadow-xl shadow-primary/5 border border-outline-variant/30 hover:-translate-y-1 transition-transform duration-300">
-            <p className="font-body-md italic text-on-surface-variant mb-4 md:mb-6 leading-relaxed text-sm md:text-base">"I've tried many wellness apps, but nothing compares to the curated experience of SriYogalaya. The attention to detail is world-class."</p>
+          <div className="break-inside-avoid bg-white p-5 md:p-8 rounded-2xl shadow-xl shadow-primary/5 border border-outline-variant/30 hover:-translate-y-1 transition-transform duration-300">
+            <div className="flex text-secondary mb-3 md:mb-4">
+              <span className="material-symbols-outlined text-[18px] md:text-[24px]" style={{ fontVariationSettings: "'FILL' 1" }}>star</span>
+              <span className="material-symbols-outlined text-[18px] md:text-[24px]" style={{ fontVariationSettings: "'FILL' 1" }}>star</span>
+              <span className="material-symbols-outlined text-[18px] md:text-[24px]" style={{ fontVariationSettings: "'FILL' 1" }}>star</span>
+              <span className="material-symbols-outlined text-[18px] md:text-[24px]" style={{ fontVariationSettings: "'FILL' 1" }}>star</span>
+              <span className="material-symbols-outlined text-[18px] md:text-[24px]" style={{ fontVariationSettings: "'FILL' 1" }}>star</span>
+            </div>
+            <p className="font-body-md italic text-on-surface-variant mb-4 md:mb-6 leading-relaxed text-sm md:text-base">&quot;Sridevi is a disciplined and dedicated yoga teacher who genuinely cares about her students&apos; growth. Her encouragement keeps us motivated, while her keen eye for progress helps us continuously improve. She strikes the perfect balance between challenging us and providing steady, supportive guidance. Practicing with her has made me stronger, more confident, and more committed to my yoga journey. Thank you!&quot;</p>
             <div className="flex items-center gap-3 md:gap-4">
-              <div className="w-10 h-10 md:w-12 md:h-12 rounded-full overflow-hidden bg-surface-container">
-                <img className="w-full h-full object-cover" alt="Robert Miller" src="https://placehold.co/100x100/f5f5f5/primary?text=RM" />
+              <div className="w-10 h-10 md:w-12 md:h-12 rounded-full overflow-hidden bg-primary/10 flex items-center justify-center">
+                <span className="material-symbols-outlined text-primary text-[20px] md:text-[24px]" style={{ fontVariationSettings: "'FILL' 1" }}>person</span>
               </div>
               <div>
-                <p className="font-label-caps font-bold text-on-surface text-xs md:text-sm">Robert Miller</p>
-                <p className="text-[9px] md:text-[10px] text-primary font-bold tracking-widest uppercase">Business Mentor</p>
+                <p className="font-label-caps font-bold text-on-surface text-xs md:text-sm">SriYogalaya Student</p>
+                <p className="text-[9px] md:text-[10px] text-primary font-bold tracking-widest uppercase">Dedicated Practitioner</p>
               </div>
             </div>
           </div>
 
-          <div className="min-w-[260px] md:min-w-[400px] snap-center bg-white p-5 md:p-8 rounded-2xl shadow-xl shadow-primary/5 border border-outline-variant/30 hover:-translate-y-1 transition-transform duration-300">
-            <p className="font-body-md italic text-on-surface-variant mb-4 md:mb-6 leading-relaxed text-sm md:text-base">"The retreats are transformative. I left feeling like a completely different person—lighter, more focused, and ready for the world."</p>
+          <div className="break-inside-avoid bg-white p-5 md:p-8 rounded-2xl shadow-xl shadow-primary/5 border border-outline-variant/30 hover:-translate-y-1 transition-transform duration-300">
+            <div className="flex text-secondary mb-3 md:mb-4">
+              <span className="material-symbols-outlined text-[18px] md:text-[24px]" style={{ fontVariationSettings: "'FILL' 1" }}>star</span>
+              <span className="material-symbols-outlined text-[18px] md:text-[24px]" style={{ fontVariationSettings: "'FILL' 1" }}>star</span>
+              <span className="material-symbols-outlined text-[18px] md:text-[24px]" style={{ fontVariationSettings: "'FILL' 1" }}>star</span>
+              <span className="material-symbols-outlined text-[18px] md:text-[24px]" style={{ fontVariationSettings: "'FILL' 1" }}>star</span>
+              <span className="material-symbols-outlined text-[18px] md:text-[24px]" style={{ fontVariationSettings: "'FILL' 1" }}>star</span>
+            </div>
+            <p className="font-body-md italic text-on-surface-variant mb-4 md:mb-6 leading-relaxed text-sm md:text-base">&quot;If you want to transform your derailed life health-wise and have realised it very late in life. Sriyogalaya is the place to bring everything back on track and make your life and journey healthier and happier.&quot;</p>
             <div className="flex items-center gap-3 md:gap-4">
-              <div className="w-10 h-10 md:w-12 md:h-12 rounded-full overflow-hidden bg-surface-container">
-                <img className="w-full h-full object-cover" alt="Aria Thompson" src="https://placehold.co/100x100/f5f5f5/primary?text=AT" />
+              <div className="w-10 h-10 md:w-12 md:h-12 rounded-full overflow-hidden bg-primary/10 flex items-center justify-center">
+                <span className="material-symbols-outlined text-primary text-[20px] md:text-[24px]" style={{ fontVariationSettings: "'FILL' 1" }}>person</span>
               </div>
               <div>
-                <p className="font-label-caps font-bold text-on-surface text-xs md:text-sm">Aria Thompson</p>
-                <p className="text-[9px] md:text-[10px] text-primary font-bold tracking-widest uppercase">Creative Director</p>
+                <p className="font-label-caps font-bold text-on-surface text-xs md:text-sm">SriYogalaya Student</p>
+                <p className="text-[9px] md:text-[10px] text-primary font-bold tracking-widest uppercase">Health Transformation</p>
               </div>
             </div>
           </div>
+
+          <div className="break-inside-avoid bg-white p-5 md:p-8 rounded-2xl shadow-xl shadow-primary/5 border border-outline-variant/30 hover:-translate-y-1 transition-transform duration-300">
+            <div className="flex text-secondary mb-3 md:mb-4">
+              <span className="material-symbols-outlined text-[18px] md:text-[24px]" style={{ fontVariationSettings: "'FILL' 1" }}>star</span>
+              <span className="material-symbols-outlined text-[18px] md:text-[24px]" style={{ fontVariationSettings: "'FILL' 1" }}>star</span>
+              <span className="material-symbols-outlined text-[18px] md:text-[24px]" style={{ fontVariationSettings: "'FILL' 1" }}>star</span>
+              <span className="material-symbols-outlined text-[18px] md:text-[24px]" style={{ fontVariationSettings: "'FILL' 1" }}>star</span>
+              <span className="material-symbols-outlined text-[18px] md:text-[24px]" style={{ fontVariationSettings: "'FILL' 1" }}>star</span>
+            </div>
+            <p className="font-body-md italic text-on-surface-variant mb-4 md:mb-6 leading-relaxed text-sm md:text-base">&quot;I really appreciate Sridevi&apos;s gentle and supportive yoga teaching style. She gives clear guidance, offers options, and never makes the practice feel pushy or intimidating, which is very different from some of my past experiences in other classes. Because of that, I feel comfortable listening to my body, progressing at my own pace, and truly started to enjoy yoga again. Her calm communication, encouragement, and non-judgmental approach create a safe and welcoming space to practice. I always leave her yoga sessions feeling relaxed, respected, and re-energized.&quot;</p>
+            <div className="flex items-center gap-3 md:gap-4">
+              <div className="w-10 h-10 md:w-12 md:h-12 rounded-full overflow-hidden bg-primary/10 flex items-center justify-center">
+                <span className="material-symbols-outlined text-primary text-[20px] md:text-[24px]" style={{ fontVariationSettings: "'FILL' 1" }}>person</span>
+              </div>
+              <div>
+                <p className="font-label-caps font-bold text-on-surface text-xs md:text-sm">Srini Manthena</p>
+                <p className="text-[9px] md:text-[10px] text-primary font-bold tracking-widest uppercase">USA</p>
+              </div>
+            </div>
+          </div>
+
+          <div className="break-inside-avoid bg-white p-5 md:p-8 rounded-2xl shadow-xl shadow-primary/5 border border-outline-variant/30 hover:-translate-y-1 transition-transform duration-300">
+            <div className="flex text-secondary mb-3 md:mb-4">
+              <span className="material-symbols-outlined text-[18px] md:text-[24px]" style={{ fontVariationSettings: "'FILL' 1" }}>star</span>
+              <span className="material-symbols-outlined text-[18px] md:text-[24px]" style={{ fontVariationSettings: "'FILL' 1" }}>star</span>
+              <span className="material-symbols-outlined text-[18px] md:text-[24px]" style={{ fontVariationSettings: "'FILL' 1" }}>star</span>
+              <span className="material-symbols-outlined text-[18px] md:text-[24px]" style={{ fontVariationSettings: "'FILL' 1" }}>star</span>
+              <span className="material-symbols-outlined text-[18px] md:text-[24px]" style={{ fontVariationSettings: "'FILL' 1" }}>star</span>
+            </div>
+            <p className="font-body-md italic text-on-surface-variant mb-4 md:mb-6 leading-relaxed text-sm md:text-base">&quot;As I reflect on the past 2.5 years of learning under your wing, my heart is filled with the deepest gratitude. Your teachings extend far beyond the physical mastery of Asanas. Thank you for the incredible dedication and boundless wisdom you share so generously. Your presence in my life has been an anchor, helping me find strength during challenges and stillness amidst chaos. You have not only taught me Yoga, but you have inspired me by the way you live your life with such grace and poise. I am truly blessed to have you as my Guru 🙏🏻&quot;</p>
+            <div className="flex items-center gap-3 md:gap-4">
+              <div className="w-10 h-10 md:w-12 md:h-12 rounded-full overflow-hidden bg-primary/10 flex items-center justify-center">
+                <span className="material-symbols-outlined text-primary text-[20px] md:text-[24px]" style={{ fontVariationSettings: "'FILL' 1" }}>person</span>
+              </div>
+              <div>
+                <p className="font-label-caps font-bold text-on-surface text-xs md:text-sm">Swapna Kulkarni</p>
+                <p className="text-[9px] md:text-[10px] text-primary font-bold tracking-widest uppercase">2.5+ Years Practitioner</p>
+              </div>
+            </div>
+          </div>
+
         </div>
       </section>
 
