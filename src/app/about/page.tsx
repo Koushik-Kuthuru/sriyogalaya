@@ -56,7 +56,7 @@ export default function AboutYourGuide() {
             </div>
             <div className="bg-white p-6 sm:p-10 md:p-12 lg:p-16 rounded-2xl md:rounded-[2rem] shadow-xl shadow-primary/5 border border-on-surface/5 hover:border-primary/20 transition-all duration-500">
               <h3 className="font-display-lg text-xl md:text-2xl text-secondary mb-3 md:mb-6 italic">Mission &amp; Philosophy</h3>
-              <p className="font-display-lg text-xl md:text-3xl text-on-surface mb-4 md:mb-8 leading-tight">"Yoga is the practice of tolerating the consequences of being yourself."</p>
+              <p className="font-display-lg text-xl md:text-3xl text-on-surface mb-4 md:mb-8 leading-tight">&quot;&quot;</p>
               <p className="text-on-surface-variant text-sm md:text-base font-light leading-relaxed">My mission is to democratize the luxury of stillness. I believe that digital platforms can be just as sacred as a physical shala. Through intentional 1-on-1 guidance, we strip away the performance and focus on the profound shifts that happen when you finally listen to what your body is whispering.</p>
             </div>
           </div>
@@ -163,7 +163,7 @@ export default function AboutYourGuide() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-12">
           <div className="bg-surface-container-low p-6 sm:p-10 md:p-12 rounded-2xl md:rounded-[2.5rem] border border-on-surface/5 shadow-sm relative">
             <span className="material-symbols-outlined text-secondary/20 text-6xl md:text-8xl absolute top-4 right-6 md:top-6 md:right-8">format_quote</span>
-            <p className="font-body-lg text-sm md:text-lg text-on-surface mb-6 md:mb-8 relative z-10 font-light leading-relaxed">"I really appreciate Sridevi's gentle and supportive yoga teaching style. She gives clear guidance, offers options, and never makes the practice feel pushy or intimidating, which is very different from some of my past experiences in other classes. Because of that, I feel comfortable listening to my body, progressing at my own pace, and truly started to enjoy yoga again. Her calm communication, encouragement, and non-judgmental approach create a safe and welcoming space to practice. I always leave her yoga sessions feeling relaxed, respected, and re-energized."</p>
+            <p className="font-body-lg text-sm md:text-lg text-on-surface mb-6 md:mb-8 relative z-10 font-light leading-relaxed">&quot;&quot;</p>
             <div className="flex items-center gap-4">
               <div className="w-10 h-10 md:w-12 md:h-12 rounded-full bg-primary-container flex items-center justify-center">
                 <span className="material-symbols-outlined text-primary text-[20px] md:text-[24px]" style={{ fontVariationSettings: "'FILL' 1" }}>person</span>
@@ -176,7 +176,7 @@ export default function AboutYourGuide() {
           </div>
           <div className="bg-surface-container-low p-6 sm:p-10 md:p-12 rounded-2xl md:rounded-[2.5rem] border border-on-surface/5 shadow-sm relative">
             <span className="material-symbols-outlined text-secondary/20 text-6xl md:text-8xl absolute top-4 right-6 md:top-6 md:right-8">format_quote</span>
-            <p className="font-body-lg text-sm md:text-lg text-on-surface mb-6 md:mb-8 relative z-10 font-light leading-relaxed">"As I reflect on the past 2.5 years of learning under your wing, my heart is filled with the deepest gratitude. Your teachings extend far beyond the physical mastery of Asanas. Thank you for the incredible dedication and boundless wisdom you share so generously. Your presence in my life has been an anchor, helping me find strength during challenges and stillness amidst chaos. You have not only taught me Yoga, but you have inspired me by the way you live your life with such grace and poise. I am truly blessed to have you as my Guru 🙏🏻"</p>
+            <p className="font-body-lg text-sm md:text-lg text-on-surface mb-6 md:mb-8 relative z-10 font-light leading-relaxed">&quot;As I reflect on the past 2.5 years of learning under your wing, my heart is filled with the deepest gratitude. Your teachings extend far beyond the physical mastery of Asanas. Thank you for the incredible dedication and boundless wisdom you share so generously. Your presence in my life has been an anchor, helping me find strength during challenges and stillness amidst chaos. You have not only taught me Yoga, but you have inspired me by the way you live your life with such grace and poise. I am truly blessed to have you as my Guru 🙏🏻&quot;</p>
             <div className="flex items-center gap-4">
               <div className="w-10 h-10 md:w-12 md:h-12 rounded-full bg-secondary-container flex items-center justify-center">
                 <span className="material-symbols-outlined text-secondary text-[20px] md:text-[24px]" style={{ fontVariationSettings: "'FILL' 1" }}>person</span>

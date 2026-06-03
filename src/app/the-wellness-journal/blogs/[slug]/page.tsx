@@ -3,8 +3,7 @@ import { notFound } from "next/navigation";
 import type { Metadata, ResolvingMetadata } from "next";
 
 export async function generateMetadata(
-  { params }: { params: Promise<{ slug: string }> },
-  parent: ResolvingMetadata
+  { params }: { params: Promise<{ slug: string }> }
 ): Promise<Metadata> {
   const { slug } = await params;
   const post = BLOG_POSTS[slug];

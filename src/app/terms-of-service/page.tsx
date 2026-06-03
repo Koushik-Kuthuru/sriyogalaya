@@ -38,12 +38,12 @@ export default function TermsOfService() {
 
           <h2>3. Bookings, Cancellations, and Refunds</h2>
           <p>
-            All sessions must be booked and paid for in advance. We understand that life happens, but to respect the instructor's time, we require at least 24 hours notice for any cancellations or rescheduling.
+            All sessions must be booked and paid for in advance. We understand that life happens, but to respect the instructor&apos;s time, we require at least 24 hours notice for any cancellations or rescheduling.
           </p>
           <ul>
             <li>Cancellations made more than 24 hours in advance will receive a full refund or can be rescheduled.</li>
             <li>Cancellations made less than 24 hours in advance will not be refunded.</li>
-            <li>"No-shows" will be charged the full session rate.</li>
+            <li>&quot;No-shows&quot; will be charged the full session rate.</li>
           </ul>
 
           <h2>4. Technical Requirements</h2>

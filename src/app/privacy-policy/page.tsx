@@ -28,7 +28,7 @@ export default function PrivacyPolicy() {
             When you visit the Site, we automatically collect certain information about your device, including information about your web browser, IP address, time zone, and some of the cookies that are installed on your device.
           </p>
           <p>
-            Additionally, when you book a session or attempt to make a booking through the Site, we collect certain information from you, including your name, billing address, payment information, email address, and phone number. We refer to this information as "Booking Information."
+            Additionally, when you book a session or attempt to make a booking through the Site, we collect certain information from you, including your name, billing address, payment information, email address, and phone number. We refer to this information as &quot;Booking Information.&quot;
           </p>
 
           <h2>2. How We Use Your Information</h2>

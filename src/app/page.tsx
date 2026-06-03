@@ -372,7 +372,6 @@ export default function Home() {
                     height="460" 
                     frameBorder="0" 
                     scrolling="no" 
-                    allowtransparency="true" 
                     className="rounded-2xl border border-on-surface/10 shadow-lg bg-white overflow-hidden">
                   </iframe>
                 </div>

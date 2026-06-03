@@ -51,7 +51,7 @@ export default function SuccessStories() {
               </button>
             </div>
             <div className="absolute bottom-0 left-0 right-0 p-5 md:p-8 bg-gradient-to-t from-black/60 to-transparent">
-              <h3 className="text-white font-headline-sm text-base md:text-headline-sm">"The silence here taught me how to listen again."</h3>
+              <h3 className="text-white font-headline-sm text-base md:text-headline-sm">&quot;&quot;</h3>
               <p className="text-white/80 font-body-md text-xs md:text-sm mt-1 md:mt-2">— Elena, Tech Executive &amp; Retreat Member</p>
             </div>
           </div>
@@ -107,7 +107,7 @@ export default function SuccessStories() {
                   <span className="material-symbols-outlined text-[18px] md:text-[24px]" style={{ fontVariationSettings: "'FILL' 1" }}>star</span>
                 </div>
                 <h4 className="font-headline-sm text-lg md:text-headline-sm text-on-surface mb-2">Weight Loss &amp; Vitality</h4>
-                <p className="font-body-md text-sm md:text-base text-on-surface-variant">"The 90-day reset program changed my relationship with food and movement entirely. I lost 22lbs, but more importantly, I gained clarity."</p>
+                <p className="font-body-md text-sm md:text-base text-on-surface-variant">&quot;&quot;</p>
                 <p className="mt-3 md:mt-4 font-label-caps text-secondary text-[10px] md:text-xs">— MARCUS R.</p>
               </div>
             </div>
@@ -132,7 +132,7 @@ export default function SuccessStories() {
                   <span className="material-symbols-outlined text-[18px] md:text-[24px]" style={{ fontVariationSettings: "'FILL' 1" }}>star</span>
                 </div>
                 <h4 className="font-headline-sm text-lg md:text-headline-sm text-on-surface mb-2">Stress Recovery</h4>
-                <p className="font-body-md text-sm md:text-base text-on-surface-variant">"I was on the verge of burnout. The mindfulness tools I learned here helped me rebuild my life from a place of peace rather than pressure."</p>
+                <p className="font-body-md text-sm md:text-base text-on-surface-variant">&quot;&quot;</p>
                 <p className="mt-3 md:mt-4 font-label-caps text-secondary text-[10px] md:text-xs">— SARAH L.</p>
               </div>
             </div>
@@ -253,7 +253,7 @@ export default function SuccessStories() {
           <div className="absolute bottom-0 left-0 w-40 md:w-64 h-40 md:h-64 bg-secondary/20 rounded-full -ml-20 md:-ml-32 -mb-20 md:-mb-32 blur-3xl transition-transform duration-1000 group-hover:scale-150 pointer-events-none"></div>
           <div className="relative z-10 max-w-3xl mx-auto">
             <h2 className="font-display-lg text-3xl sm:text-4xl md:text-5xl lg:text-6xl mb-5 md:mb-8 tracking-tight font-semibold">Begin Your Own Chapter</h2>
-            <p className="font-body-lg text-base md:text-lg text-white/70 mb-8 md:mb-12 leading-relaxed">Join our sanctuary today and start a journey toward the version of yourself you've been waiting to meet.</p>
+            <p className="font-body-lg text-base md:text-lg text-white/70 mb-8 md:mb-12 leading-relaxed">Join our sanctuary today and start a journey toward the version of yourself you&apos;ve been waiting to meet.</p>
             <div className="flex flex-col sm:flex-row justify-center gap-4 md:gap-6">
               <Link href="/connect-with-us" className="bg-white text-black px-8 md:px-12 py-4 md:py-5 rounded-full font-label-caps uppercase tracking-[0.2em] hover:bg-white/90 hover:-translate-y-1 hover:shadow-[0_0_30px_rgba(255,255,255,0.2)] transition-all font-bold text-[11px] inline-block text-center">Connect With Us</Link>
             </div>
