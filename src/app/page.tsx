@@ -83,7 +83,7 @@ export default function Home() {
                 <div className="relative">
                   {/* Main image card */}
                   <div className="w-[380px] h-[480px] rounded-[2rem] overflow-hidden shadow-2xl shadow-black/20 border border-white/20 rotate-2 hover:rotate-0 transition-transform duration-700 bg-white">
-                    <img src="/images/IMG_5802.HEIC" alt="Sri Devi — Yoga Instructor" className="w-full h-full object-cover object-center" />
+                    <img src="/images/IMG_5802.jpeg" alt="Sri Devi — Yoga Instructor" className="w-full h-full object-cover object-center" />
                   </div>
 
                   {/* Logo badge overlay */}
